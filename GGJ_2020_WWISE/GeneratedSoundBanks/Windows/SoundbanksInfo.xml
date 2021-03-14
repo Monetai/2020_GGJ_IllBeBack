@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\GGJ2020\GGJ_2020_WWISE\</ProjectRoot>
+		<SourceFilesRoot>D:\GGJ2020\GGJ_2020_WWISE\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GGJ2020\GGJ_2020_WWISE\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\GGJ2020\GGJ_2020_WWISE\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
+			<ShortName>Soundbank</ShortName>
+			<Path>Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2981377429" Name="ambiance" ObjectPath="\Events\Maxou\ambiance" DurationType="Infinite"/>
+				<Event Id="1550275060" Name="cine_end" ObjectPath="\Events\Sacha\cine_end" DurationType="OneShot" DurationMin="4.500000" DurationMax="4.500000"/>
+				<Event Id="4173738841" Name="cine_intro" ObjectPath="\Events\Sacha\cine_intro" DurationType="Infinite"/>
+				<Event Id="1649773729" Name="debris_fixed_jar" ObjectPath="\Events\Maxou\debris\debris_fixed_jar" DurationType="OneShot" DurationMin="0.117663" DurationMax="0.214126"/>
+				<Event Id="1772195558" Name="debris_fixed_panneau" ObjectPath="\Events\Maxou\debris\debris_fixed_panneau" DurationType="OneShot" DurationMin="0.387082" DurationMax="0.460321"/>
+				<Event Id="315311242" Name="debris_fixed_statue" ObjectPath="\Events\Maxou\debris\debris_fixed_statue" DurationType="OneShot" DurationMin="0.117663" DurationMax="0.214126"/>
+				<Event Id="2056082964" Name="debris_fixed_tabouret" ObjectPath="\Events\Maxou\debris\debris_fixed_tabouret" DurationType="OneShot" DurationMin="0.729112" DurationMax="0.729112"/>
+				<Event Id="2666448669" Name="onom_niv1" ObjectPath="\Events\Maxou\fight\onom_niv1" DurationType="OneShot" DurationMin="0.195020" DurationMax="0.360234"/>
+				<Event Id="2666448670" Name="onom_niv2" ObjectPath="\Events\Maxou\fight\onom_niv2" DurationType="OneShot" DurationMin="0.323459" DurationMax="0.486556"/>
+				<Event Id="2666448671" Name="onom_niv3" ObjectPath="\Events\Maxou\fight\onom_niv3" DurationType="OneShot" DurationMin="0.558683" DurationMax="1.153011"/>
+				<Event Id="2932040671" Name="Play_music" ObjectPath="\Events\Sacha\Play_music" DurationType="Infinite"/>
+				<Event Id="3527566233" Name="punch_hit" ObjectPath="\Events\Maxou\fight\punch_hit" DurationType="OneShot" DurationMin="0.635312" DurationMax="0.897972"/>
+				<Event Id="3191616561" Name="punch_jar" ObjectPath="\Events\Sacha\punch_jar" DurationType="OneShot" DurationMin="0.242665" DurationMax="0.459280"/>
+				<Event Id="2871299542" Name="punch_miss" ObjectPath="\Events\Maxou\fight\punch_miss" DurationType="OneShot" DurationMin="0.557061" DurationMax="1.009628"/>
+				<Event Id="1210562842" Name="punch_statue" ObjectPath="\Events\Sacha\punch_statue" DurationType="OneShot" DurationMin="0.242665" DurationMax="0.459280"/>
+				<Event Id="1599075777" Name="punch_wood" ObjectPath="\Events\Sacha\punch_wood" DurationType="OneShot" DurationMin="0.482276" DurationMax="0.522721"/>
+				<Event Id="3921480823" Name="slowmo_loop" ObjectPath="\Events\Maxou\fight\slowmo_loop" DurationType="Infinite"/>
+				<Event Id="2903286327" Name="slowmo_start" ObjectPath="\Events\Maxou\fight\slowmo_start" DurationType="Infinite"/>
+				<Event Id="4019462301" Name="slowmo_stop" ObjectPath="\Events\Maxou\fight\slowmo_stop" DurationType="OneShot" DurationMin="1.530058" DurationMax="1.530058"/>
+				<Event Id="3157003241" Name="test" ObjectPath="\Events\Default Work Unit\test" DurationType="Infinite"/>
+				<Event Id="576110585" Name="test2" ObjectPath="\Events\Default Work Unit\test2" DurationType="Infinite"/>
+				<Event Id="1816765649" Name="testmaxou" ObjectPath="\Events\Maxou\testmaxou" DurationType="OneShot" DurationMin="0.112246" DurationMax="0.200000"/>
+				<Event Id="3594639768" Name="truth" ObjectPath="\Events\Maxou\truth" DurationType="OneShot" DurationMin="7.662752" DurationMax="7.662752"/>
+				<Event Id="1323846727" Name="whoosh" ObjectPath="\Events\Maxou\fight\whoosh" DurationType="OneShot" DurationMin="0.266742" DurationMax="0.797035"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="113383" Language="SFX">
+					<ShortName>ggj2020_onom_niv2_05.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv2_05_10C4C929.wem</Path>
+				</File>
+				<File Id="11284483" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_06.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_06_10C4C929.wem</Path>
+				</File>
+				<File Id="19267854" Language="SFX">
+					<ShortName>punch_hit_04.wav</ShortName>
+					<Path>SFX\punch_hit_04_10C4C929.wem</Path>
+				</File>
+				<File Id="46632162" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_02.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_02_10C4C929.wem</Path>
+				</File>
+				<File Id="71895116" Language="SFX">
+					<ShortName>gdc-2020_crash.wav</ShortName>
+					<Path>SFX\gdc-2020_crash_D79FB2B7.wem</Path>
+				</File>
+				<File Id="85271248" Language="SFX">
+					<ShortName>gdc-2020_stinger02.wav</ShortName>
+					<Path>SFX\gdc-2020_stinger02_10C4C929.wem</Path>
+				</File>
+				<File Id="87672424" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_01.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_01_10C4C929.wem</Path>
+				</File>
+				<File Id="102664540" Language="SFX">
+					<ShortName>gdc-2020_slap_02.wav</ShortName>
+					<Path>SFX\gdc-2020_slap_02_10C4C929.wem</Path>
+				</File>
+				<File Id="108953167" Language="SFX">
+					<ShortName>ggj2020_whoosh_03.wav</ShortName>
+					<Path>SFX\ggj2020_whoosh_03_10C4C929.wem</Path>
+				</File>
+				<File Id="122663433" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_03.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_03_10C4C929.wem</Path>
+				</File>
+				<File Id="129345105" Language="SFX">
+					<ShortName>ggj2020_onom_niv2_01.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv2_01_10C4C929.wem</Path>
+				</File>
+				<File Id="150586430" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_05.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_05_10C4C929.wem</Path>
+				</File>
+				<File Id="154272008" Language="SFX">
+					<ShortName>gdc-2020_slap_01.wav</ShortName>
+					<Path>SFX\gdc-2020_slap_01_10C4C929.wem</Path>
+				</File>
+				<File Id="156370118" Language="SFX">
+					<ShortName>cine_intro_wind.wav</ShortName>
+					<Path>SFX\cine_intro_wind_B1AA7803.wem</Path>
+				</File>
+				<File Id="174016134" Language="SFX">
+					<ShortName>ggj2020_blob_fantome.wav</ShortName>
+					<Path>SFX\ggj2020_blob_fantome_10C4C929.wem</Path>
+				</File>
+				<File Id="175835812" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_05.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_05_10C4C929.wem</Path>
+				</File>
+				<File Id="191156688" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_07.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_07_10C4C929.wem</Path>
+				</File>
+				<File Id="193012352" Language="SFX">
+					<ShortName>VO_ghost_arrival_03.wav</ShortName>
+					<Path>SFX\VO_ghost_arrival_03_10C4C929.wem</Path>
+				</File>
+				<File Id="209597098" Language="SFX">
+					<ShortName>ambiance_forest.wav</ShortName>
+					<Path>SFX\ambiance_forest_452A0D12.wem</Path>
+				</File>
+				<File Id="221698922" Language="SFX">
+					<ShortName>VO_ghost_laugh_evil_01.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_evil_01_10C4C929.wem</Path>
+				</File>
+				<File Id="223045524" Language="SFX">
+					<ShortName>ggj2020_onom_niv3_04.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv3_04_10C4C929.wem</Path>
+				</File>
+				<File Id="242023437" Language="SFX">
+					<ShortName>ggj2020_onom_niv2_03.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv2_03_10C4C929.wem</Path>
+				</File>
+				<File Id="307394539" Language="SFX">
+					<ShortName>VO_ghost_laugh_evil_03.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_evil_03_10C4C929.wem</Path>
+				</File>
+				<File Id="325043800" Language="SFX">
+					<ShortName>ggj2020_whoosh_02.wav</ShortName>
+					<Path>SFX\ggj2020_whoosh_02_10C4C929.wem</Path>
+				</File>
+				<File Id="337911461" Language="SFX">
+					<ShortName>ggj2020_whoosh_01.wav</ShortName>
+					<Path>SFX\ggj2020_whoosh_01_10C4C929.wem</Path>
+				</File>
+				<File Id="339846713" Language="SFX">
+					<ShortName>punch_miss_04.wav</ShortName>
+					<Path>SFX\punch_miss_04_10C4C929.wem</Path>
+				</File>
+				<File Id="362489380" Language="SFX">
+					<ShortName>VO_ghost_arrival_01.wav</ShortName>
+					<Path>SFX\VO_ghost_arrival_01_10C4C929.wem</Path>
+				</File>
+				<File Id="374064218" Language="SFX">
+					<ShortName>punch_wood_01.wav</ShortName>
+					<Path>SFX\punch_wood_01_10C4C929.wem</Path>
+				</File>
+				<File Id="379502522" Language="SFX">
+					<ShortName>gdc-2020_loop4.wav</ShortName>
+					<Path>SFX\gdc-2020_loop4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="392045710" Language="SFX">
+					<ShortName>ggj2020_onom_niv3_06.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv3_06_10C4C929.wem</Path>
+				</File>
+				<File Id="394316909" Language="SFX">
+					<ShortName>cine_intro_wind_debris.wav</ShortName>
+					<Path>SFX\cine_intro_wind_debris_1A6BCF4C.wem</Path>
+				</File>
+				<File Id="408927039" Language="SFX">
+					<ShortName>ggj2020_whoosh_04.wav</ShortName>
+					<Path>SFX\ggj2020_whoosh_04_10C4C929.wem</Path>
+				</File>
+				<File Id="422344390" Language="SFX">
+					<ShortName>gdc-2020_intro.wav</ShortName>
+					<Path>SFX\gdc-2020_intro_D79FB2B7.wem</Path>
+				</File>
+				<File Id="423407514" Language="SFX">
+					<ShortName>punch_hit_08.wav</ShortName>
+					<Path>SFX\punch_hit_08_10C4C929.wem</Path>
+				</File>
+				<File Id="424597393" Language="SFX">
+					<ShortName>punch_hit_05.wav</ShortName>
+					<Path>SFX\punch_hit_05_10C4C929.wem</Path>
+				</File>
+				<File Id="443107859" Language="SFX">
+					<ShortName>VO_ghost_laugh_caugh_03.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_caugh_03_10C4C929.wem</Path>
+				</File>
+				<File Id="447856264" Language="SFX">
+					<ShortName>punch_hit_03.wav</ShortName>
+					<Path>SFX\punch_hit_03_10C4C929.wem</Path>
+				</File>
+				<File Id="454859133" Language="SFX">
+					<ShortName>gdc-2020_loop3_retake.wav</ShortName>
+					<Path>SFX\gdc-2020_loop3_retake_D79FB2B7.wem</Path>
+				</File>
+				<File Id="465672361" Language="SFX">
+					<ShortName>debris_fix_panneau.wav</ShortName>
+					<Path>SFX\debris_fix_panneau_10C4C929.wem</Path>
+				</File>
+				<File Id="466250691" Language="SFX">
+					<ShortName>ggj2020_onom_niv2_06.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv2_06_10C4C929.wem</Path>
+				</File>
+				<File Id="474377456" Language="SFX">
+					<ShortName>gdc-2020_slap_03.wav</ShortName>
+					<Path>SFX\gdc-2020_slap_03_10C4C929.wem</Path>
+				</File>
+				<File Id="475727875" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_01.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_01_10C4C929.wem</Path>
+				</File>
+				<File Id="477787185" Language="SFX">
+					<ShortName>VO_ghost_laugh_evil_02.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_evil_02_10C4C929.wem</Path>
+				</File>
+				<File Id="516473256" Language="SFX">
+					<ShortName>punch_miss_01.wav</ShortName>
+					<Path>SFX\punch_miss_01_10C4C929.wem</Path>
+				</File>
+				<File Id="525186951" Language="SFX">
+					<ShortName>punch_statue_04.wav</ShortName>
+					<Path>SFX\punch_statue_04_10C4C929.wem</Path>
+				</File>
+				<File Id="528097558" Language="SFX">
+					<ShortName>gdc-2020_loop5.wav</ShortName>
+					<Path>SFX\gdc-2020_loop5_D79FB2B7.wem</Path>
+				</File>
+				<File Id="543118520" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_07.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_07_10C4C929.wem</Path>
+				</File>
+				<File Id="571982979" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_06.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_06_10C4C929.wem</Path>
+				</File>
+				<File Id="640410890" Language="SFX">
+					<ShortName>cine_intro_begin_fragments.wav</ShortName>
+					<Path>SFX\cine_intro_begin_fragments_DBC81836.wem</Path>
+				</File>
+				<File Id="647862098" Language="SFX">
+					<ShortName>punch_miss_06.wav</ShortName>
+					<Path>SFX\punch_miss_06_10C4C929.wem</Path>
+				</File>
+				<File Id="655907864" Language="SFX">
+					<ShortName>test_muffin.wav</ShortName>
+					<Path>SFX\test_muffin_10C4C929.wem</Path>
+				</File>
+				<File Id="663857531" Language="SFX">
+					<ShortName>punch_hit_01.wav</ShortName>
+					<Path>SFX\punch_hit_01_10C4C929.wem</Path>
+				</File>
+				<File Id="671689660" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_04.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_04_10C4C929.wem</Path>
+				</File>
+				<File Id="700262907" Language="SFX">
+					<ShortName>punch_miss_02.wav</ShortName>
+					<Path>SFX\punch_miss_02_10C4C929.wem</Path>
+				</File>
+				<File Id="729298241" Language="SFX">
+					<ShortName>punch_miss_05.wav</ShortName>
+					<Path>SFX\punch_miss_05_10C4C929.wem</Path>
+				</File>
+				<File Id="741203626" Language="SFX">
+					<ShortName>gdc-2020_stinger01.wav</ShortName>
+					<Path>SFX\gdc-2020_stinger01_10C4C929.wem</Path>
+				</File>
+				<File Id="742306282" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_02.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_02_10C4C929.wem</Path>
+				</File>
+				<File Id="745728254" Language="SFX">
+					<ShortName>punch_hit_02.wav</ShortName>
+					<Path>SFX\punch_hit_02_10C4C929.wem</Path>
+				</File>
+				<File Id="753536083" Language="SFX">
+					<ShortName>ggj2020_onom_niv3_07.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv3_07_10C4C929.wem</Path>
+				</File>
+				<File Id="784277066" Language="SFX">
+					<ShortName>punch_statue_02.wav</ShortName>
+					<Path>SFX\punch_statue_02_10C4C929.wem</Path>
+				</File>
+				<File Id="786035439" Language="SFX">
+					<ShortName>ggj2020_onom_niv3_01.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv3_01_10C4C929.wem</Path>
+				</File>
+				<File Id="803857989" Language="SFX">
+					<ShortName>punch_hit_06.wav</ShortName>
+					<Path>SFX\punch_hit_06_10C4C929.wem</Path>
+				</File>
+				<File Id="834472190" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_03.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_03_10C4C929.wem</Path>
+				</File>
+				<File Id="843404833" Language="SFX">
+					<ShortName>debris_fix_chair.wav</ShortName>
+					<Path>SFX\debris_fix_chair_10C4C929.wem</Path>
+				</File>
+				<File Id="849424525" Language="SFX">
+					<ShortName>punch_statue_01.wav</ShortName>
+					<Path>SFX\punch_statue_01_10C4C929.wem</Path>
+				</File>
+				<File Id="854256374" Language="SFX">
+					<ShortName>slowmo_loop.wav</ShortName>
+					<Path>SFX\slowmo_loop_B3A77A30.wem</Path>
+				</File>
+				<File Id="861782993" Language="SFX">
+					<ShortName>punch_wood_03.wav</ShortName>
+					<Path>SFX\punch_wood_03_CCCE21C2.wem</Path>
+				</File>
+				<File Id="875582600" Language="SFX">
+					<ShortName>slowmo_stop_01.wav</ShortName>
+					<Path>SFX\slowmo_stop_01_BDC8BDBA.wem</Path>
+				</File>
+				<File Id="888902323" Language="SFX">
+					<ShortName>debris_fix_statue_03.wav</ShortName>
+					<Path>SFX\debris_fix_statue_03_10C4C929.wem</Path>
+				</File>
+				<File Id="895402564" Language="SFX">
+					<ShortName>punch_hit_07.wav</ShortName>
+					<Path>SFX\punch_hit_07_10C4C929.wem</Path>
+				</File>
+				<File Id="905065464" Language="SFX">
+					<ShortName>gdc-2020_loop12.wav</ShortName>
+					<Path>SFX\gdc-2020_loop12_D79FB2B7.wem</Path>
+				</File>
+				<File Id="922000804" Language="SFX">
+					<ShortName>debris_fix_statue_01.wav</ShortName>
+					<Path>SFX\debris_fix_statue_01_10C4C929.wem</Path>
+				</File>
+				<File Id="932331393" Language="SFX">
+					<ShortName>laveritealexandre.wav</ShortName>
+					<Path>SFX\laveritealexandre_EA095198.wem</Path>
+				</File>
+				<File Id="935992558" Language="SFX">
+					<ShortName>punch_wood_02.wav</ShortName>
+					<Path>SFX\punch_wood_02_10C4C929.wem</Path>
+				</File>
+				<File Id="942381897" Language="SFX">
+					<ShortName>ggj2020_onom_niv2_04.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv2_04_10C4C929.wem</Path>
+				</File>
+				<File Id="949471379" Language="SFX">
+					<ShortName>gdc-2020_stinger03.wav</ShortName>
+					<Path>SFX\gdc-2020_stinger03_10C4C929.wem</Path>
+				</File>
+				<File Id="956816972" Language="SFX">
+					<ShortName>VO_ghost_laugh_short_04.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_short_04_10C4C929.wem</Path>
+				</File>
+				<File Id="973182502" Language="SFX">
+					<ShortName>cine_intro_begin_fragments.wav</ShortName>
+					<Path>SFX\cine_intro_begin_fragments_05AC84B9.wem</Path>
+				</File>
+				<File Id="997990689" Language="SFX">
+					<ShortName>VO_ghost_leave_cry_01.wav</ShortName>
+					<Path>SFX\VO_ghost_leave_cry_01_10C4C929.wem</Path>
+				</File>
+				<File Id="998118602" Language="SFX">
+					<ShortName>debris_fix_statue_02.wav</ShortName>
+					<Path>SFX\debris_fix_statue_02_10C4C929.wem</Path>
+				</File>
+				<File Id="1004047905" Language="SFX">
+					<ShortName>VO_ghost_laugh_caugh_02.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_caugh_02_10C4C929.wem</Path>
+				</File>
+				<File Id="1028015162" Language="SFX">
+					<ShortName>punch_statue_03.wav</ShortName>
+					<Path>SFX\punch_statue_03_10C4C929.wem</Path>
+				</File>
+				<File Id="1045287388" Language="SFX">
+					<ShortName>punch_miss_03.wav</ShortName>
+					<Path>SFX\punch_miss_03_10C4C929.wem</Path>
+				</File>
+				<File Id="1062249339" Language="SFX">
+					<ShortName>ggj2020_onom_niv1_08.wav</ShortName>
+					<Path>SFX\ggj2020_onom_niv1_08_10C4C929.wem</Path>
+				</File>
+				<File Id="1071094723" Language="SFX">
+					<ShortName>VO_ghost_laugh_caugh_01.wav</ShortName>
+					<Path>SFX\VO_ghost_laugh_caugh_01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1738350949351018482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738350949351018480}
+  - component: {fileID: 1738350949351018483}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1738350949351018480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738350949351018482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1738350949351018483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738350949351018482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd52af90d10ca324b8b087543b56cb69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Patterns:
+  - Pattern: {fileID: 11400000, guid: e1c27d36060eb3d47bb9f3ea8d47be81, type: 2}
+    Probability: 2
+  - Pattern: {fileID: 11400000, guid: 2ba7ee67f9b0927468bba4aea188cfb3, type: 2}
+    Probability: 2
+  - Pattern: {fileID: 11400000, guid: eb5350bd30bb865479dc606324aede8d, type: 2}
+    Probability: 3
+  - Pattern: {fileID: 11400000, guid: 5ca8c30070ecd6a48a64880bbcccd064, type: 2}
+    Probability: 3
+  - Pattern: {fileID: 11400000, guid: 5a63ddef8da0f054db2a0d6672c65c28, type: 2}
+    Probability: 4
+  - Pattern: {fileID: 11400000, guid: d26a0632d42299547bbd44e0424b436f, type: 2}
+    Probability: 4
+  - Pattern: {fileID: 11400000, guid: 86a030fdc24dafd429c596873f426516, type: 2}
+    Probability: 1
+  - Pattern: {fileID: 11400000, guid: 33997f7b0b73fa74581ef1d45a127040, type: 2}
+    Probability: 1
+  m_ActiveFragments: {fileID: 11400000, guid: a1acf73e6f9b1894caeeab8f695bfc76, type: 2}
