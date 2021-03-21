@@ -302,19 +302,12 @@ public class Repaired : FSMState
         switch (fsm.GetController<Fragment>().typeAudio)
         {
             case FragmentTypeAudio.jar:
-                AkSoundEngine.PostEvent("debris_fixed_jar", fsm.GetController<Fragment>().gameObject);
-
                 break;
             case FragmentTypeAudio.panneau:
-                AkSoundEngine.PostEvent("debris_fixed_panneau", fsm.GetController<Fragment>().gameObject);
                 break;
             case FragmentTypeAudio.statue:
-                AkSoundEngine.PostEvent("debris_fixed_statue", fsm.GetController<Fragment>().gameObject);
-
                 break;
             case FragmentTypeAudio.tabouret:
-                AkSoundEngine.PostEvent("debris_fixed_tabouret", fsm.GetController<Fragment>().gameObject);
-                    
                 break;
 
         }

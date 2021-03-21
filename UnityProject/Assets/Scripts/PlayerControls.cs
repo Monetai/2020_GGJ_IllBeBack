@@ -219,9 +219,11 @@ public class PlayerControls : MonoBehaviour
         if (fragment.typeAudio == FragmentTypeAudio.panneau || fragment.typeAudio == FragmentTypeAudio.tabouret || Random.Range(0, 100) < 10)
         {
             voLevel = 3;
-            AkSoundEngine.SetRTPCValue("slow_mo", 1);
-            AkSoundEngine.PostEvent("slowmo_start", gameObject);
-            CameraEffectManager.Instance.Zoom(dir, () => { fragment.HitFragment(); AkSoundEngine.SetRTPCValue("slow_mo", 0); SetStateMusicGame(); AkSoundEngine.PostEvent("slowmo_stop", gameObject); });
+            CameraEffectManager.Instance.Zoom(dir, () => 
+            { 
+                fragment.HitFragment(); 
+                SetStateMusicGame(); 
+            });
         }
         else
         {
@@ -249,20 +251,14 @@ public class PlayerControls : MonoBehaviour
 
     private void StartHitAnimation(Fragment fragment)
     {
-
-        AkSoundEngine.PostEvent("whoosh", gameObject);
-        print("cc+"+voLevel);
         switch (voLevel)
         {
             case 1:
-                AkSoundEngine.PostEvent("onom_niv1", gameObject);
                 break;
             case 2:
-                AkSoundEngine.PostEvent("onom_niv2", gameObject);
                 voLevel = 1;
                 break;
             case 3:
-                AkSoundEngine.PostEvent("onom_niv3", gameObject);
                 voLevel = 1;
                 break;
         }
@@ -304,13 +300,11 @@ public class PlayerControls : MonoBehaviour
         print("dbg");
         if (toggleMusicGame)
         {
-            AkSoundEngine.SetState("game_state", "game1A");
             print("dbg_game1a");
             toggleMusicGame = false;
         }
         else
         {
-            AkSoundEngine.SetState("game_state", "game1B");
             print("dbg_game1b");
             toggleMusicGame = true;
         }
