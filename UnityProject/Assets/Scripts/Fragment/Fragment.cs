@@ -116,26 +116,16 @@ public class Fragment : MonoBehaviour, IFSMController
 
     public void HitFragment()
     {
-        AkSoundEngine.PostEvent("punch_hit", gameObject);
-
         switch (typeAudio)
         {
             case FragmentTypeAudio.jar:
-                AkSoundEngine.PostEvent("punch_jar", gameObject);
-
                 break;
             case FragmentTypeAudio.panneau:
-                AkSoundEngine.PostEvent("punch_wood", gameObject);
                 break;
             case FragmentTypeAudio.statue:
-                AkSoundEngine.PostEvent("punch_statue", gameObject);
-
                 break;
             case FragmentTypeAudio.tabouret:
-                AkSoundEngine.PostEvent("punch_wood", gameObject);
-
                 break;
-
         }
 
 
@@ -144,7 +134,6 @@ public class Fragment : MonoBehaviour, IFSMController
 
     public void FragmentDestoyed()
     {
-        AkSoundEngine.PostEvent("punch_miss", gameObject);
         stateMachine.ChangeState((int)FragmentStates.Destroyed);
     }
 
