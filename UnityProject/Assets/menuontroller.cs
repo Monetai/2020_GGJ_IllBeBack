@@ -25,6 +25,7 @@ public class menuontroller : MonoBehaviour
     void Start()
     {
         FragmentStopper.Instance.StopFragments();
+        AkSoundEngine.SetState("game_state", "start_menu");
     }
 
     // Update is called once per frame
@@ -32,6 +33,7 @@ public class menuontroller : MonoBehaviour
     {
         if (!menu && Input.anyKeyDown)
         {
+            AkSoundEngine.PostEvent("cine_intro", gameObject);
             menu = true;
             playableDirector.Play();
             Invoke("ActivateCamera",10f);
@@ -49,6 +51,8 @@ public class menuontroller : MonoBehaviour
     public void EndCinematic()
     {
         canplay = false;
+        AkSoundEngine.PostEvent("cine_end", gameObject);
+        AkSoundEngine.SetState("game_state", "None");
         list.CurrentItems.Clear();
         endcinematic.enabled = true;
         endcinematic.Play();

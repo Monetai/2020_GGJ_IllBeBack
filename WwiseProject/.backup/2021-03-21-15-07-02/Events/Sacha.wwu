@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D4A619E-7304-49AF-B3EC-97892E1982AE}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Sacha" ID="{2D4A619E-7304-49AF-B3EC-97892E1982AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_music" ID="{7659B942-AEAA-4E78-8ED3-B0E5BB058078}">
+					<ChildrenList>
+						<Action Name="" ID="{720CB207-E574-4A73-B223-96C7DBC4244D}" ShortID="271610736">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="game" ID="{21D6B966-C232-47AE-BADC-3DA1AD2D80A7}" WorkUnitID="{951EE3D2-8B21-4183-8579-C5206F4C5269}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="punch_wood" ID="{EC4257CF-E2D3-49F5-813D-26C6B8D9B73B}">
+					<ChildrenList>
+						<Action Name="" ID="{8E9F928D-C112-4654-8611-84A78ED8125F}" ShortID="270069020">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="punch_wood" ID="{77808381-E835-475F-88FD-921F70E64F63}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="punch_statue" ID="{43EF9242-2F44-45A6-9A9A-DFC5ED388C3C}">
+					<ChildrenList>
+						<Action Name="" ID="{696E7832-DAEA-4195-A2F9-7FB83867D639}" ShortID="874602168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="punch_statue" ID="{D84401FE-194D-4BF4-8B05-28CAAAF68AB9}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="punch_jar" ID="{D4240AC9-6F88-4296-BAAF-74698AE533EB}">
+					<ChildrenList>
+						<Action Name="" ID="{D2F2DC63-3205-4DB2-908B-EBDD48E5C293}" ShortID="368972104">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="punch_statue" ID="{D84401FE-194D-4BF4-8B05-28CAAAF68AB9}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cine_intro" ID="{357722D4-7C69-48A9-945B-D5810F74E488}">
+					<ChildrenList>
+						<Action Name="" ID="{859E4008-3A8A-4062-9052-FC3608C342B0}" ShortID="639957660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui" ID="{A3151A16-BD95-4331-99DA-EF9B1A705263}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C8DB1238-9E73-446B-9BF6-64D0DF931EAB}" ShortID="974011736">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{D7C67817-4324-412F-AEB1-642C8A203D4C}" WorkUnitID="{31801545-0F70-4D43-ACE4-D3AD0D0FCE28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B2D61700-390B-4229-951C-94FE923E7BB9}" ShortID="816306485">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ggj2020_blob_fantome" ID="{A0017A2F-DE7F-4E22-8CD8-ABF4B1BAD42C}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FA31B00E-F728-4A10-B5D5-01EABFF46BA0}" ShortID="971730331">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_ghost_arrival_01" ID="{389BD867-28F9-4277-AE41-66A804179405}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B265E227-CC42-4072-AC51-6E6C934A58B3}" ShortID="214357749">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_ghost_arrival_03" ID="{1F78C37E-0D3E-443F-8A38-885BC75E58EB}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F7F0DAB-B867-4DD9-ADDB-DF124984BFE1}" ShortID="366499024">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cine_intro_begin_fragments" ID="{6A27E903-9CC7-46F5-87E1-C5601FD47FC6}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{211479AD-BA9B-4D55-AD88-056FACC2C314}" ShortID="92567849">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cine_intro_wind" ID="{ACA37212-8AB0-41D7-B62D-B9357898F43D}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0AF5D0C3-4955-4AC2-BADE-27C2827EF6BF}" ShortID="1004887714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="8"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cine_intro_wind" ID="{ACA37212-8AB0-41D7-B62D-B9357898F43D}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4CA22DB7-5C3B-4BCF-890B-FF0EF54796EC}" ShortID="536596771">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="8"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cine_intro_begin_fragments" ID="{6A27E903-9CC7-46F5-87E1-C5601FD47FC6}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05513F56-3DA3-496A-ABA6-ADFC71434687}" ShortID="115281144">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="8.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="game0" ID="{F4AC3BF0-574E-4969-82F9-69FD58052918}" WorkUnitID="{31801545-0F70-4D43-ACE4-D3AD0D0FCE28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{64A103B9-3ACB-4255-84CA-A97F529B3E49}" ShortID="343347035">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_ghost_laugh_random" ID="{B5B67F53-E8D3-4EDD-AB87-139A3845190E}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cine_end" ID="{57BB5FA4-DEB1-4A00-B8AA-2E8A4716248D}">
+					<ChildrenList>
+						<Action Name="" ID="{5598FD94-1719-4E4D-A111-E56BDED70AFF}" ShortID="189055046">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_ghost_laugh_random" ID="{B5B67F53-E8D3-4EDD-AB87-139A3845190E}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E246672A-4D57-4EA0-8A24-C11D5CE686A7}" ShortID="371019414">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ggj2020_blob_fantome" ID="{A0017A2F-DE7F-4E22-8CD8-ABF4B1BAD42C}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{03B92086-910A-4DFE-9DC5-05FC38E4247D}" ShortID="451132559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_ghost_leave_cry_01" ID="{6C0EA045-72EF-48AB-9143-4F5F5E201C02}" WorkUnitID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

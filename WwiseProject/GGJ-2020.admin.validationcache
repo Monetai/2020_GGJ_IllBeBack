@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580610867" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Actor-Mixer Hierarchy\Maxou.wwu" DateLow="1580657062" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Actor-Mixer Hierarchy\Sacha.wwu" DateLow="1580657111" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Attenuations\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Audio Devices\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Control Surface Sessions\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Conversion Settings\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Effects\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Effects\Factory Effects.wwu" DateLow="1580653992" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Events\Default Work Unit.wwu" DateLow="1580656100" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Events\Maxou.wwu" DateLow="1580652788" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Events\Sacha.wwu" DateLow="1580657107" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Game Parameters\Default Work Unit.wwu" DateLow="1580613720" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\GGJ-2020.admin.wsettings" DateLow="1580654182" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\GGJ-2020.wproj" DateLow="1580519749" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1580656762" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580643232" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Mixing Sessions\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Modulators\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Presets\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Queries\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Queries\Factory Queries.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\SoundBanks\Default Work Unit.wwu" DateLow="1580519756" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1580652788" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\States\Default Work Unit.wwu" DateLow="1580610867" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Switches\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Triggers\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GGJ2020\GGJ_2020_WWISE\Virtual Acoustics\Default Work Unit.wwu" DateLow="1580518128" DateHigh="0"/>
+</ValidationCache>

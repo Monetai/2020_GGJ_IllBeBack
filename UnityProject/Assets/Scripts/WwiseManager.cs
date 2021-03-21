@@ -11,6 +11,9 @@ public class WwiseManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AkSoundEngine.PostEvent("Play_music", gameObject);
+        AkSoundEngine.PostEvent("ambiance", gameObject);
+        AkSoundEngine.SetState("game_state", "game1A");
     }
 
     // Update is called once per frame
