@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F8B99AC6-F4D4-4AB3-A507-176693A95D00}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{F8B99AC6-F4D4-4AB3-A507-176693A95D00}" SchemaVersion="103">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{F8B99AC6-F4D4-4AB3-A507-176693A95D00}" PersistMode="Standalone">
 			<ChildrenList>
@@ -16,8 +16,10 @@
 									<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
+							<ObjectLists/>
 						</AuxBus>
 					</ChildrenList>
+					<ObjectLists/>
 				</Bus>
 				<Bus Name="music" ID="{97C6EB80-F098-41FB-BF3C-411556F1A090}">
 					<PropertyList>
@@ -119,6 +121,7 @@
 							<ObjectRef Name="System" ID="{7908CAB5-E574-4B3F-BD3B-DD6CEAFF5571}" WorkUnitID="{50B2F52B-97AD-4969-9B95-A84665C9D9DA}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists/>
 				</Bus>
 				<Bus Name="sfx" ID="{BC01DE66-E5B0-432F-A30A-463B45143F56}">
 					<PropertyList>
@@ -314,6 +317,7 @@
 							</Custom>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

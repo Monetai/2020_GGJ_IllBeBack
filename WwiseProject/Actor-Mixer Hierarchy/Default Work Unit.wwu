@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{7D9E6F8E-D651-4193-8FB2-19A0F8A7008E}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{7D9E6F8E-D651-4193-8FB2-19A0F8A7008E}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{7D9E6F8E-D651-4193-8FB2-19A0F8A7008E}" PersistMode="Standalone">
 			<ChildrenList>
@@ -68,11 +68,13 @@
 											<Language>SFX</Language>
 										</SourcePlugin>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Wwise Sine" ID="{23FEF091-8199-4835-9795-3C4B832BCF1F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="test2" ID="{84E67F80-1E4F-45AD-98E9-A5B678AFD85E}" ShortID="875470196">
 							<PropertyList>
@@ -125,18 +127,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="test_muffin" ID="{9A559A5F-B4DC-459C-9590-1F29E1C38219}" ShortID="655907864">
+										<AudioFileSource Name="test_muffin" ID="{9A559A5F-B4DC-459C-9590-1F29E1C38219}">
 											<Language>SFX</Language>
 											<AudioFile>test_muffin.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655907864"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="test_muffin" ID="{9A559A5F-B4DC-459C-9590-1F29E1C38219}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" SchemaVersion="103">
 	<Events>
 		<WorkUnit Name="Maxou" ID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" PersistMode="Standalone">
 			<ChildrenList>

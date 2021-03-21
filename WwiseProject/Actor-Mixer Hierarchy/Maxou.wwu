@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{98C03B04-FC0E-460D-ABFC-4BB1944A4169}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{98C03B04-FC0E-460D-ABFC-4BB1944A4169}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Maxou" ID="{98C03B04-FC0E-460D-ABFC-4BB1944A4169}" PersistMode="Standalone">
 			<ChildrenList>
@@ -86,11 +86,13 @@
 											<Language>SFX</Language>
 										</SourcePlugin>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Wwise Sine" ID="{B4463517-9138-4E2D-8232-EDBC899ED427}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<Sound Name="truth" ID="{03A34BF6-E447-431C-B524-A464BD91EC8F}" ShortID="669903654">
 							<PropertyList>
@@ -119,7 +121,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="laveritealexandre" ID="{C7CDB0A6-3C92-45CD-930F-8436966644F5}" ShortID="932331393">
+								<AudioFileSource Name="laveritealexandre" ID="{C7CDB0A6-3C92-45CD-930F-8436966644F5}">
 									<PropertyList>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="2.86981627296588"/>
@@ -127,13 +129,18 @@
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>laveritealexandre.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="932331393"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="laveritealexandre" ID="{C7CDB0A6-3C92-45CD-930F-8436966644F5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="fight" ID="{B5A73752-84E7-4C6C-BCE5-56CB52C68BAA}" ShortID="685282662">
 					<PropertyList>
@@ -199,11 +206,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="punch_miss_04" ID="{8DC6D676-8A23-4FE8-ACD8-401D1E7F12B0}" ShortID="339846713">
+										<AudioFileSource Name="punch_miss_04" ID="{8DC6D676-8A23-4FE8-ACD8-401D1E7F12B0}">
 											<Language>SFX</Language>
 											<AudioFile>punch_miss_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="339846713"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="punch_miss_04" ID="{8DC6D676-8A23-4FE8-ACD8-401D1E7F12B0}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -218,11 +229,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="punch_miss_06" ID="{2B547AE4-8530-48F8-A940-BB31DFC6B00F}" ShortID="647862098">
+										<AudioFileSource Name="punch_miss_06" ID="{2B547AE4-8530-48F8-A940-BB31DFC6B00F}">
 											<Language>SFX</Language>
 											<AudioFile>punch_miss_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647862098"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="punch_miss_06" ID="{2B547AE4-8530-48F8-A940-BB31DFC6B00F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -237,11 +252,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="punch_miss_03" ID="{B265D9B6-6B08-46C4-A0DE-8470CD82D4A7}" ShortID="1045287388">
+										<AudioFileSource Name="punch_miss_03" ID="{B265D9B6-6B08-46C4-A0DE-8470CD82D4A7}">
 											<Language>SFX</Language>
 											<AudioFile>punch_miss_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1045287388"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="punch_miss_03" ID="{B265D9B6-6B08-46C4-A0DE-8470CD82D4A7}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -256,14 +275,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="punch_miss_01" ID="{F4CF109E-F637-4E04-B126-FEBA6B33E5B7}" ShortID="814781730">
+										<AudioFileSource Name="punch_miss_01" ID="{F4CF109E-F637-4E04-B126-FEBA6B33E5B7}">
 											<Language>SFX</Language>
 											<AudioFile>punch_miss_01.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="516473256"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="516473256"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="punch_miss_01" ID="{F4CF109E-F637-4E04-B126-FEBA6B33E5B7}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -278,11 +298,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="punch_miss_05" ID="{5D24D62E-E749-4E16-99A3-B6F736A27885}" ShortID="729298241">
+										<AudioFileSource Name="punch_miss_05" ID="{5D24D62E-E749-4E16-99A3-B6F736A27885}">
 											<Language>SFX</Language>
 											<AudioFile>punch_miss_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="729298241"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="punch_miss_05" ID="{5D24D62E-E749-4E16-99A3-B6F736A27885}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -297,16 +321,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="punch_miss_02" ID="{8C7296F6-1CB1-4963-A028-C1A596D9317D}" ShortID="700262907">
+										<AudioFileSource Name="punch_miss_02" ID="{8C7296F6-1CB1-4963-A028-C1A596D9317D}">
 											<Language>SFX</Language>
 											<AudioFile>punch_miss_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700262907"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="punch_miss_02" ID="{8C7296F6-1CB1-4963-A028-C1A596D9317D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<BlendContainer Name="punch_hit" ID="{A696BA4E-71DE-4306-ACFC-93A82CBDC33A}" ShortID="1043071047">
 							<PropertyList>
@@ -365,11 +394,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_01" ID="{C93DF25E-66D8-47FD-8564-E46DF448ADB4}" ShortID="663857531">
+												<AudioFileSource Name="punch_hit_01" ID="{C93DF25E-66D8-47FD-8564-E46DF448ADB4}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="663857531"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_01" ID="{C93DF25E-66D8-47FD-8564-E46DF448ADB4}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -384,11 +417,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_02" ID="{36D22CD3-ABE3-4A11-BB6E-92201878DB73}" ShortID="745728254">
+												<AudioFileSource Name="punch_hit_02" ID="{36D22CD3-ABE3-4A11-BB6E-92201878DB73}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="745728254"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_02" ID="{36D22CD3-ABE3-4A11-BB6E-92201878DB73}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -403,11 +440,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_03" ID="{58E33D57-3DFB-4D85-96B6-58207D665697}" ShortID="447856264">
+												<AudioFileSource Name="punch_hit_03" ID="{58E33D57-3DFB-4D85-96B6-58207D665697}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="447856264"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_03" ID="{58E33D57-3DFB-4D85-96B6-58207D665697}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -422,11 +463,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_04" ID="{EA0F966C-7026-4E7F-AF93-7EED0E8CBA21}" ShortID="19267854">
+												<AudioFileSource Name="punch_hit_04" ID="{EA0F966C-7026-4E7F-AF93-7EED0E8CBA21}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="19267854"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_04" ID="{EA0F966C-7026-4E7F-AF93-7EED0E8CBA21}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -441,11 +486,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_05" ID="{60D8364D-9DC5-47DC-BAD2-141746DC1B44}" ShortID="424597393">
+												<AudioFileSource Name="punch_hit_05" ID="{60D8364D-9DC5-47DC-BAD2-141746DC1B44}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="424597393"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_05" ID="{60D8364D-9DC5-47DC-BAD2-141746DC1B44}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -460,11 +509,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_06" ID="{4A798A18-8423-4B68-A861-E1F247092A06}" ShortID="803857989">
+												<AudioFileSource Name="punch_hit_06" ID="{4A798A18-8423-4B68-A861-E1F247092A06}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="803857989"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_06" ID="{4A798A18-8423-4B68-A861-E1F247092A06}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -479,11 +532,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_07" ID="{4D88F2D2-FC2F-40F5-9FA0-1B6A9321DF0E}" ShortID="895402564">
+												<AudioFileSource Name="punch_hit_07" ID="{4D88F2D2-FC2F-40F5-9FA0-1B6A9321DF0E}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="895402564"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_07" ID="{4D88F2D2-FC2F-40F5-9FA0-1B6A9321DF0E}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -498,16 +555,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch_hit_08" ID="{6AEEBA47-0E47-483A-AE0C-AD527D99638D}" ShortID="423407514">
+												<AudioFileSource Name="punch_hit_08" ID="{6AEEBA47-0E47-483A-AE0C-AD527D99638D}">
 													<Language>SFX</Language>
 													<AudioFile>punch_hit_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="423407514"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="punch_hit_08" ID="{6AEEBA47-0E47-483A-AE0C-AD527D99638D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="punch_hit2" ID="{B8C73D9D-7F5D-4327-B948-0965EC12FFDB}" ShortID="677114391">
 									<PropertyList>
@@ -536,14 +598,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_slap_01" ID="{24F1DA09-786D-4B62-B9F5-179F9C5D7137}" ShortID="641062221">
+												<AudioFileSource Name="gdc-2020_slap_01" ID="{24F1DA09-786D-4B62-B9F5-179F9C5D7137}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_slap_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="154272008"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="154272008"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="gdc-2020_slap_01" ID="{24F1DA09-786D-4B62-B9F5-179F9C5D7137}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -558,14 +621,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_slap_02" ID="{DCCF85DB-760A-4F5B-8666-236B00A11937}" ShortID="224915565">
+												<AudioFileSource Name="gdc-2020_slap_02" ID="{DCCF85DB-760A-4F5B-8666-236B00A11937}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_slap_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="102664540"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="102664540"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="gdc-2020_slap_02" ID="{DCCF85DB-760A-4F5B-8666-236B00A11937}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -580,21 +644,24 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_slap_03" ID="{4C263652-1BBB-4765-BD0E-6D898BFA7BEE}" ShortID="215404963">
+												<AudioFileSource Name="gdc-2020_slap_03" ID="{4C263652-1BBB-4765-BD0E-6D898BFA7BEE}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_slap_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="474377456"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="474377456"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="gdc-2020_slap_03" ID="{4C263652-1BBB-4765-BD0E-6D898BFA7BEE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<ObjectLists/>
 						</BlendContainer>
 						<RandomSequenceContainer Name="whoosh" ID="{1976B308-EAAC-4B21-B064-37B42B1E9B16}" ShortID="1014160814">
 							<PropertyList>
@@ -641,11 +708,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_whoosh_01" ID="{D0C6DDDF-6969-441F-8F6B-89A7CEBD3E42}" ShortID="337911461">
+										<AudioFileSource Name="ggj2020_whoosh_01" ID="{D0C6DDDF-6969-441F-8F6B-89A7CEBD3E42}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_whoosh_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337911461"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_whoosh_01" ID="{D0C6DDDF-6969-441F-8F6B-89A7CEBD3E42}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -660,11 +731,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_whoosh_02" ID="{FF4E96DA-8907-4779-9D1C-700F001A0A62}" ShortID="325043800">
+										<AudioFileSource Name="ggj2020_whoosh_02" ID="{FF4E96DA-8907-4779-9D1C-700F001A0A62}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_whoosh_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="325043800"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_whoosh_02" ID="{FF4E96DA-8907-4779-9D1C-700F001A0A62}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -679,11 +754,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_whoosh_03" ID="{C208D4DC-0C2E-4D86-948E-4A310F813389}" ShortID="108953167">
+										<AudioFileSource Name="ggj2020_whoosh_03" ID="{C208D4DC-0C2E-4D86-948E-4A310F813389}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_whoosh_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108953167"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_whoosh_03" ID="{C208D4DC-0C2E-4D86-948E-4A310F813389}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -698,16 +777,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_whoosh_04" ID="{0B451C71-5C6D-4A3D-9F60-D9E4DF4E005C}" ShortID="408927039">
+										<AudioFileSource Name="ggj2020_whoosh_04" ID="{0B451C71-5C6D-4A3D-9F60-D9E4DF4E005C}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_whoosh_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408927039"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_whoosh_04" ID="{0B451C71-5C6D-4A3D-9F60-D9E4DF4E005C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="onom_niv1" ID="{4B378F11-0191-4EED-B5A9-0677FA01C1BC}" ShortID="641192586">
 							<PropertyList>
@@ -742,14 +826,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_01" ID="{FB5401AF-7CF5-4450-A4C6-F881C8F155A1}" ShortID="365331890">
+										<AudioFileSource Name="ggj2020_onom_niv1_01" ID="{FB5401AF-7CF5-4450-A4C6-F881C8F155A1}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_01.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="475727875"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="475727875"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_01" ID="{FB5401AF-7CF5-4450-A4C6-F881C8F155A1}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -764,14 +849,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_02" ID="{37D0C327-4E54-4FB6-87E5-96053847D0BC}" ShortID="727226654">
+										<AudioFileSource Name="ggj2020_onom_niv1_02" ID="{37D0C327-4E54-4FB6-87E5-96053847D0BC}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_02.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="742306282"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="742306282"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_02" ID="{37D0C327-4E54-4FB6-87E5-96053847D0BC}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -786,14 +872,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_03" ID="{60D84885-4910-46D4-8D16-2C8771033E41}" ShortID="74590652">
+										<AudioFileSource Name="ggj2020_onom_niv1_03" ID="{60D84885-4910-46D4-8D16-2C8771033E41}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_03.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="834472190"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="834472190"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_03" ID="{60D84885-4910-46D4-8D16-2C8771033E41}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -808,14 +895,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_04" ID="{456E87AA-3391-41F9-9D67-D4ADDC565DD9}" ShortID="414172107">
+										<AudioFileSource Name="ggj2020_onom_niv1_04" ID="{456E87AA-3391-41F9-9D67-D4ADDC565DD9}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_04.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="671689660"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="671689660"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_04" ID="{456E87AA-3391-41F9-9D67-D4ADDC565DD9}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -830,14 +918,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_05" ID="{F465E8FA-1A68-4D27-9203-8C5B76D2E61B}" ShortID="974440290">
+										<AudioFileSource Name="ggj2020_onom_niv1_05" ID="{F465E8FA-1A68-4D27-9203-8C5B76D2E61B}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_05.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="150586430"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="150586430"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_05" ID="{F465E8FA-1A68-4D27-9203-8C5B76D2E61B}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -852,14 +941,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_06" ID="{722229CF-7AB8-46A7-A3CC-9E7B2EDD7684}" ShortID="808863971">
+										<AudioFileSource Name="ggj2020_onom_niv1_06" ID="{722229CF-7AB8-46A7-A3CC-9E7B2EDD7684}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_06.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="571982979"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="571982979"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_06" ID="{722229CF-7AB8-46A7-A3CC-9E7B2EDD7684}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -874,14 +964,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_07" ID="{276373CD-E589-4C6B-A74B-3242C59E9C59}" ShortID="807261099">
+										<AudioFileSource Name="ggj2020_onom_niv1_07" ID="{276373CD-E589-4C6B-A74B-3242C59E9C59}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_07.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="543118520"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="543118520"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_07" ID="{276373CD-E589-4C6B-A74B-3242C59E9C59}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -896,19 +987,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv1_08" ID="{F6CD4A65-58C3-44AA-A9EE-FCAEE9C50BCC}" ShortID="843142212">
+										<AudioFileSource Name="ggj2020_onom_niv1_08" ID="{F6CD4A65-58C3-44AA-A9EE-FCAEE9C50BCC}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv1_08.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="1062249339"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="1062249339"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv1_08" ID="{F6CD4A65-58C3-44AA-A9EE-FCAEE9C50BCC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="onom_niv2" ID="{6AC21E54-0B67-436E-9F97-1E689E7B737F}" ShortID="1030130271">
 							<PropertyList>
@@ -944,14 +1037,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv2_01" ID="{EA0916D4-687A-49FA-B90B-C6561CAC5735}" ShortID="853426858">
+										<AudioFileSource Name="ggj2020_onom_niv2_01" ID="{EA0916D4-687A-49FA-B90B-C6561CAC5735}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv2_01.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="129345105"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="129345105"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv2_01" ID="{EA0916D4-687A-49FA-B90B-C6561CAC5735}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -969,14 +1063,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv2_03" ID="{E36B7657-157E-4ED1-B46F-D49E1462F6C8}" ShortID="320446617">
+										<AudioFileSource Name="ggj2020_onom_niv2_03" ID="{E36B7657-157E-4ED1-B46F-D49E1462F6C8}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv2_03.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="242023437"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="242023437"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv2_03" ID="{E36B7657-157E-4ED1-B46F-D49E1462F6C8}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -994,14 +1089,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv2_04" ID="{3E26C5B8-B0AE-4650-BFAF-FAC575FDC944}" ShortID="206441025">
+										<AudioFileSource Name="ggj2020_onom_niv2_04" ID="{3E26C5B8-B0AE-4650-BFAF-FAC575FDC944}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv2_04.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="942381897"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="942381897"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv2_04" ID="{3E26C5B8-B0AE-4650-BFAF-FAC575FDC944}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1019,14 +1115,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv2_05" ID="{65D2DF69-26E2-4E1E-8AE2-56D556C73301}" ShortID="808167950">
+										<AudioFileSource Name="ggj2020_onom_niv2_05" ID="{65D2DF69-26E2-4E1E-8AE2-56D556C73301}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv2_05.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="113383"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="113383"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv2_05" ID="{65D2DF69-26E2-4E1E-8AE2-56D556C73301}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1044,19 +1141,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv2_06" ID="{8960F0ED-AD25-4926-960B-AB0C58A98D55}" ShortID="1071541163">
+										<AudioFileSource Name="ggj2020_onom_niv2_06" ID="{8960F0ED-AD25-4926-960B-AB0C58A98D55}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv2_06.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="466250691"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="466250691"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv2_06" ID="{8960F0ED-AD25-4926-960B-AB0C58A98D55}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="onom_niv3" ID="{A5E8F872-2B82-4C44-868D-0D86FA1F580D}" ShortID="598740199">
 							<PropertyList>
@@ -1110,14 +1209,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv3_01" ID="{BC0F250C-325C-4D64-A6E3-F700FDDD2F9B}" ShortID="6588331">
+										<AudioFileSource Name="ggj2020_onom_niv3_01" ID="{BC0F250C-325C-4D64-A6E3-F700FDDD2F9B}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv3_01.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="786035439"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="786035439"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv3_01" ID="{BC0F250C-325C-4D64-A6E3-F700FDDD2F9B}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1142,14 +1242,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv3_02" ID="{AB7B6D57-6CF4-4B45-8B73-B0A89E5A29E9}" ShortID="941477581">
+										<AudioFileSource Name="ggj2020_onom_niv3_02" ID="{AB7B6D57-6CF4-4B45-8B73-B0A89E5A29E9}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv3_02.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="446242172"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="446242172"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv3_02" ID="{AB7B6D57-6CF4-4B45-8B73-B0A89E5A29E9}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1174,14 +1275,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv3_04" ID="{364EF3EE-FBCB-4396-BF4F-C85DBABC8419}" ShortID="12711139">
+										<AudioFileSource Name="ggj2020_onom_niv3_04" ID="{364EF3EE-FBCB-4396-BF4F-C85DBABC8419}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv3_04.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="223045524"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="223045524"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv3_04" ID="{364EF3EE-FBCB-4396-BF4F-C85DBABC8419}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1206,14 +1308,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv3_05" ID="{68C4ACA4-3276-44BA-9564-55AD3FBBC3A2}" ShortID="190119816">
+										<AudioFileSource Name="ggj2020_onom_niv3_05" ID="{68C4ACA4-3276-44BA-9564-55AD3FBBC3A2}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv3_05.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="683841103"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="683841103"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv3_05" ID="{68C4ACA4-3276-44BA-9564-55AD3FBBC3A2}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1231,14 +1334,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv3_06" ID="{81643D98-99FC-41C2-98B3-81D888359BAB}" ShortID="520575861">
+										<AudioFileSource Name="ggj2020_onom_niv3_06" ID="{81643D98-99FC-41C2-98B3-81D888359BAB}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv3_06.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="392045710"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="392045710"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv3_06" ID="{81643D98-99FC-41C2-98B3-81D888359BAB}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1256,21 +1360,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ggj2020_onom_niv3_07" ID="{1E5EBAB0-F0C1-4C35-9557-A10BFEACBB6E}" ShortID="1033369961">
+										<AudioFileSource Name="ggj2020_onom_niv3_07" ID="{1E5EBAB0-F0C1-4C35-9557-A10BFEACBB6E}">
 											<Language>SFX</Language>
 											<AudioFile>ggj2020_onom_niv3_07.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="753536083"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="753536083"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ggj2020_onom_niv3_07" ID="{1E5EBAB0-F0C1-4C35-9557-A10BFEACBB6E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="ambiance" ID="{9C400E7D-4713-4412-9F46-B22260DFCA70}" ShortID="994034858">
 					<PropertyList>
@@ -1346,7 +1453,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ambiance_forest" ID="{C71CFE66-AFF2-4896-A0A4-558816376113}" ShortID="209597098">
+										<AudioFileSource Name="ambiance_forest" ID="{C71CFE66-AFF2-4896-A0A4-558816376113}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="500"/>
 												<Property Name="LoopBegin" Type="Real64" Value="2"/>
@@ -1355,15 +1462,21 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ambiance_forest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="209597098"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ambiance_forest" ID="{C71CFE66-AFF2-4896-A0A4-558816376113}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<BlendContainer Name="slowmo_start" ID="{6D81D6A3-8A43-4483-BC0B-112B1D7D6B5B}" ShortID="369617939">
 					<PropertyList>
@@ -1422,11 +1535,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="slowmo_start_01" ID="{416C356C-62F2-4167-BC86-204CF19DDB60}" ShortID="930274613">
+								<AudioFileSource Name="slowmo_start_01" ID="{416C356C-62F2-4167-BC86-204CF19DDB60}">
 									<Language>SFX</Language>
 									<AudioFile>slowmo_start_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="930274613"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="slowmo_start_01" ID="{416C356C-62F2-4167-BC86-204CF19DDB60}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1451,15 +1568,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="gdc-2020_stinger01" ID="{3961E3D1-E11B-4A42-A16F-598FE68400F3}" ShortID="741203626">
+										<AudioFileSource Name="gdc-2020_stinger01" ID="{3961E3D1-E11B-4A42-A16F-598FE68400F3}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="0.385706906392694"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>gdc-2020_stinger01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741203626"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="gdc-2020_stinger01" ID="{3961E3D1-E11B-4A42-A16F-598FE68400F3}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1474,11 +1595,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="gdc-2020_stinger02" ID="{553F2A6D-3279-489A-B547-B77B8402C14A}" ShortID="85271248">
+										<AudioFileSource Name="gdc-2020_stinger02" ID="{553F2A6D-3279-489A-B547-B77B8402C14A}">
 											<Language>SFX</Language>
 											<AudioFile>gdc-2020_stinger02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="85271248"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="gdc-2020_stinger02" ID="{553F2A6D-3279-489A-B547-B77B8402C14A}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1493,18 +1618,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="gdc-2020_stinger03" ID="{AF181044-68FC-489B-AF9D-7AAD981E44F4}" ShortID="949471379">
+										<AudioFileSource Name="gdc-2020_stinger03" ID="{AF181044-68FC-489B-AF9D-7AAD981E44F4}">
 											<Language>SFX</Language>
 											<AudioFile>gdc-2020_stinger03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="949471379"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="gdc-2020_stinger03" ID="{AF181044-68FC-489B-AF9D-7AAD981E44F4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists/>
 				</BlendContainer>
 				<BlendContainer Name="slowmo_stop" ID="{CC1BF2B2-4A9B-4662-B807-B4B4F74299AA}" ShortID="19171501">
 					<PropertyList>
@@ -1547,21 +1678,26 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="slowmo_stop_01" ID="{CAE451DB-9DE0-4584-BAE7-69B980C77178}" ShortID="875582600">
+								<AudioFileSource Name="slowmo_stop_01" ID="{CAE451DB-9DE0-4584-BAE7-69B980C77178}">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.116153182077626"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="3.57394406392694E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0357394406392694"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>slowmo_stop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875582600"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="slowmo_stop_01" ID="{CAE451DB-9DE0-4584-BAE7-69B980C77178}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</BlendContainer>
 				<BlendContainer Name="slowmo_loop" ID="{ADDF70CF-5C3F-4131-892F-0F0E3DC8C1E3}" ShortID="197907985">
 					<PropertyList>
@@ -1615,7 +1751,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="slowmo_loop" ID="{E7965F82-3739-486B-B6BF-BB30005CC670}" ShortID="854256374">
+								<AudioFileSource Name="slowmo_loop" ID="{E7965F82-3739-486B-B6BF-BB30005CC670}">
 									<PropertyList>
 										<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
 										<Property Name="LoopBegin" Type="Real64" Value="15.2596262626263"/>
@@ -1626,8 +1762,12 @@
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>slowmo_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="854256374"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="slowmo_loop" ID="{E7965F82-3739-486B-B6BF-BB30005CC670}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1642,11 +1782,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gdc-2020_slap_01" ID="{978550F9-E948-4661-8659-FAD754CEE666}" ShortID="154272008">
+								<AudioFileSource Name="gdc-2020_slap_01" ID="{978550F9-E948-4661-8659-FAD754CEE666}">
 									<Language>SFX</Language>
 									<AudioFile>gdc-2020_slap_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="154272008"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="gdc-2020_slap_01" ID="{978550F9-E948-4661-8659-FAD754CEE666}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1661,11 +1805,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gdc-2020_slap_02" ID="{2CDA3615-8643-49AB-AA59-6402DE74A250}" ShortID="102664540">
+								<AudioFileSource Name="gdc-2020_slap_02" ID="{2CDA3615-8643-49AB-AA59-6402DE74A250}">
 									<Language>SFX</Language>
 									<AudioFile>gdc-2020_slap_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="102664540"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="gdc-2020_slap_02" ID="{2CDA3615-8643-49AB-AA59-6402DE74A250}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1680,16 +1828,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gdc-2020_slap_03" ID="{719A7462-4659-4570-948D-AC7B85E6C26A}" ShortID="474377456">
+								<AudioFileSource Name="gdc-2020_slap_03" ID="{719A7462-4659-4570-948D-AC7B85E6C26A}">
 									<Language>SFX</Language>
 									<AudioFile>gdc-2020_slap_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="474377456"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="gdc-2020_slap_03" ID="{719A7462-4659-4570-948D-AC7B85E6C26A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</BlendContainer>
 				<BlendContainer Name="debris_fixed" ID="{4A076246-CBA9-4AB4-AA6B-3CA5BB7BA51E}" ShortID="1026389476">
 					<PropertyList>
@@ -1762,11 +1915,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_01" ID="{C85491C2-D94B-4BCE-B837-CD3E70CD209E}" ShortID="554867195">
+										<AudioFileSource Name="debris_fix_01" ID="{C85491C2-D94B-4BCE-B837-CD3E70CD209E}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554867195"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_01" ID="{C85491C2-D94B-4BCE-B837-CD3E70CD209E}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1781,11 +1938,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_02" ID="{961DD076-CED2-46D5-B52E-01C41872B1CA}" ShortID="43731180">
+										<AudioFileSource Name="debris_fix_02" ID="{961DD076-CED2-46D5-B52E-01C41872B1CA}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="43731180"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_02" ID="{961DD076-CED2-46D5-B52E-01C41872B1CA}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1800,11 +1961,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_03" ID="{2469C54C-8CB3-43C9-A452-55D6425D8CED}" ShortID="766992460">
+										<AudioFileSource Name="debris_fix_03" ID="{2469C54C-8CB3-43C9-A452-55D6425D8CED}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="766992460"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_03" ID="{2469C54C-8CB3-43C9-A452-55D6425D8CED}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1819,11 +1984,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_04" ID="{1966FCAE-85A7-4047-BFDC-3654368C88FC}" ShortID="54765233">
+										<AudioFileSource Name="debris_fix_04" ID="{1966FCAE-85A7-4047-BFDC-3654368C88FC}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="54765233"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_04" ID="{1966FCAE-85A7-4047-BFDC-3654368C88FC}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1838,11 +2007,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_05" ID="{93A6729C-BEA7-4BF5-9EDD-152EFE7940D4}" ShortID="759388030">
+										<AudioFileSource Name="debris_fix_05" ID="{93A6729C-BEA7-4BF5-9EDD-152EFE7940D4}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="759388030"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_05" ID="{93A6729C-BEA7-4BF5-9EDD-152EFE7940D4}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1866,16 +2039,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_06" ID="{1482B225-E573-4B6C-B8F6-BE542C748029}" ShortID="821257772">
+										<AudioFileSource Name="debris_fix_06" ID="{1482B225-E573-4B6C-B8F6-BE542C748029}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821257772"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_06" ID="{1482B225-E573-4B6C-B8F6-BE542C748029}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="debris_fixed_panneau" ID="{6D1E28A0-FA5E-45EB-B844-DAADD727A5E0}" ShortID="827887781">
 							<PropertyList>
@@ -1930,16 +2108,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_panneau" ID="{EFF78605-5977-4679-BAF4-4604EB05B1AE}" ShortID="465672361">
+										<AudioFileSource Name="debris_fix_panneau" ID="{EFF78605-5977-4679-BAF4-4604EB05B1AE}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_panneau.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="465672361"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_panneau" ID="{EFF78605-5977-4679-BAF4-4604EB05B1AE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="debris_fixed_statue" ID="{94442E4A-B93E-49DC-B0D8-9C87724C1E94}" ShortID="458530261">
 							<PropertyList>
@@ -1997,11 +2180,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_statue_01" ID="{302430B5-2428-42AF-825B-EB346B0EF4BD}" ShortID="922000804">
+										<AudioFileSource Name="debris_fix_statue_01" ID="{302430B5-2428-42AF-825B-EB346B0EF4BD}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_statue_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922000804"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_statue_01" ID="{302430B5-2428-42AF-825B-EB346B0EF4BD}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2016,11 +2203,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_statue_02" ID="{FFA25460-B3FE-4234-A7C7-EC346D9AF93F}" ShortID="998118602">
+										<AudioFileSource Name="debris_fix_statue_02" ID="{FFA25460-B3FE-4234-A7C7-EC346D9AF93F}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_statue_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="998118602"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_statue_02" ID="{FFA25460-B3FE-4234-A7C7-EC346D9AF93F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2035,16 +2226,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_statue_03" ID="{302A7880-1B66-4F61-86BA-1562909B6E3B}" ShortID="888902323">
+										<AudioFileSource Name="debris_fix_statue_03" ID="{302A7880-1B66-4F61-86BA-1562909B6E3B}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_statue_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888902323"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_statue_03" ID="{302A7880-1B66-4F61-86BA-1562909B6E3B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<BlendContainer Name="debris_fix_tabouret" ID="{8F8E769F-7163-4224-96F0-278B7D292A03}" ShortID="1008413959">
 							<PropertyList>
@@ -2092,11 +2288,15 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_chair" ID="{29BCBBDE-9BF5-4268-A79C-20DB9299AA1D}" ShortID="843404833">
+										<AudioFileSource Name="debris_fix_chair" ID="{29BCBBDE-9BF5-4268-A79C-20DB9299AA1D}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_chair.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843404833"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_chair" ID="{29BCBBDE-9BF5-4268-A79C-20DB9299AA1D}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2125,21 +2325,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="debris_fix_panneau" ID="{D7F19BD8-D5CB-445E-99F6-FB4F9D81C0F4}" ShortID="525597489">
+										<AudioFileSource Name="debris_fix_panneau" ID="{D7F19BD8-D5CB-445E-99F6-FB4F9D81C0F4}">
 											<Language>SFX</Language>
 											<AudioFile>debris_fix_panneau.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="465672361"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="465672361"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="debris_fix_panneau" ID="{D7F19BD8-D5CB-445E-99F6-FB4F9D81C0F4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
+					<ObjectLists/>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{265BC3F6-468B-4D90-8198-0B4966E951E9}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{265BC3F6-468B-4D90-8198-0B4966E951E9}" SchemaVersion="103">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{265BC3F6-468B-4D90-8198-0B4966E951E9}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{EBDA6AB9-9062-4D01-95BE-C217E478F0A7}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{53A9BE6D-DA28-4347-AFF2-D07FB77C93C5}" WorkUnitID="{53A9BE6D-DA28-4347-AFF2-D07FB77C93C5}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Maxou" ID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" WorkUnitID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Sacha" ID="{2D4A619E-7304-49AF-B3EC-97892E1982AE}" WorkUnitID="{2D4A619E-7304-49AF-B3EC-97892E1982AE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{53A9BE6D-DA28-4347-AFF2-D07FB77C93C5}" WorkUnitID="{53A9BE6D-DA28-4347-AFF2-D07FB77C93C5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Maxou" ID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" WorkUnitID="{842CB4C6-700E-47EA-AC2B-4CDC94BF57AF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sacha" ID="{2D4A619E-7304-49AF-B3EC-97892E1982AE}" WorkUnitID="{2D4A619E-7304-49AF-B3EC-97892E1982AE}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

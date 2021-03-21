@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{951EE3D2-8B21-4183-8579-C5206F4C5269}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{951EE3D2-8B21-4183-8579-C5206F4C5269}" SchemaVersion="103">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{951EE3D2-8B21-4183-8579-C5206F4C5269}" PersistMode="Standalone">
 			<ChildrenList>
@@ -46,9 +46,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop12" ID="{539C1879-F65C-435A-976F-06314C998DC6}" ShortID="905065464">
+												<AudioFileSource Name="gdc-2020_loop12" ID="{539C1879-F65C-435A-976F-06314C998DC6}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="905065464"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -59,90 +62,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{786CED9B-B3C3-4358-B259-E91AAAD5146B}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop12" ID="{D49A5A4B-F6AD-4F6E-BE08-940FA15D018C}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="30967.741935484"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop12" ID="{539C1879-F65C-435A-976F-06314C998DC6}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{B31E527B-4F40-448B-A127-4410CEFC7816}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{D33B6F3E-D1E9-43DB-9B05-87B45EBD89CC}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{F177CF6E-8AAE-472C-A38F-19EBB46B0558}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{786CED9B-B3C3-4358-B259-E91AAAD5146B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop12" ID="{D49A5A4B-F6AD-4F6E-BE08-940FA15D018C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="30967.741935484"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop12" ID="{539C1879-F65C-435A-976F-06314C998DC6}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{B31E527B-4F40-448B-A127-4410CEFC7816}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{D33B6F3E-D1E9-43DB-9B05-87B45EBD89CC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{F177CF6E-8AAE-472C-A38F-19EBB46B0558}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{2058DC79-FF6C-4CD7-8E33-1B5697807BFE}"/>
-										<MusicCue Name="Exit Cue" ID="{D2589B0F-CBE5-4275-BE33-787E71CED612}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="24774.1875"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2058DC79-FF6C-4CD7-8E33-1B5697807BFE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D2589B0F-CBE5-4275-BE33-787E71CED612}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24774.1875"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
@@ -158,6 +183,7 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{EBEF432D-9954-42BB-A411-B2154FDDE616}" ShortID="663857707">
 									<PropertyList>
@@ -205,9 +231,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_intro" ID="{549DC8CF-1E7C-4E2E-A802-079ABE8956C9}" ShortID="422344390">
+												<AudioFileSource Name="gdc-2020_intro" ID="{549DC8CF-1E7C-4E2E-A802-079ABE8956C9}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="422344390"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -218,31 +247,53 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{4ACBB829-813B-43DC-B3A8-F0EA04C3C254}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_intro" ID="{F03C5679-F4C5-4948-8DC4-7CF6422F1FF1}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_intro" ID="{549DC8CF-1E7C-4E2E-A802-079ABE8956C9}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4ACBB829-813B-43DC-B3A8-F0EA04C3C254}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_intro" ID="{F03C5679-F4C5-4948-8DC4-7CF6422F1FF1}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_intro" ID="{549DC8CF-1E7C-4E2E-A802-079ABE8956C9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{2ACC1A08-ED6F-4A5B-B01C-99916AA6B619}"/>
-										<MusicCue Name="Exit Cue" ID="{7DA91A77-EC46-4618-A739-E2414732C3C9}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="8000"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2ACC1A08-ED6F-4A5B-B01C-99916AA6B619}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{7DA91A77-EC46-4618-A739-E2414732C3C9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
@@ -258,6 +309,7 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{9A410906-6AA0-4BB3-AE50-CED4E4800362}" ShortID="937774465">
 									<PropertyList>
@@ -316,9 +368,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop1_transi" ID="{6909DA8F-7DAE-4F4E-8412-2271D119BCCD}" ShortID="63841313">
+												<AudioFileSource Name="gdc-2020_loop1_transi" ID="{6909DA8F-7DAE-4F4E-8412-2271D119BCCD}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop1_transi.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="63841313"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -329,31 +384,53 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{52B2D213-1618-4219-A31C-FFF6BBD569F5}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop1_transi" ID="{66500A39-2588-426A-8C6E-70D4EB1E9C82}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6193.52083333333"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop1_transi" ID="{6909DA8F-7DAE-4F4E-8412-2271D119BCCD}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{52B2D213-1618-4219-A31C-FFF6BBD569F5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop1_transi" ID="{66500A39-2588-426A-8C6E-70D4EB1E9C82}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="6193.52083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop1_transi" ID="{6909DA8F-7DAE-4F4E-8412-2271D119BCCD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{EB2B16CF-94BE-48AE-85D6-79A610CE1437}"/>
-										<MusicCue Name="Exit Cue" ID="{D66E83E4-3CCD-4C95-B6FC-9085F8D1F533}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="6193.52083333333"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{EB2B16CF-94BE-48AE-85D6-79A610CE1437}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D66E83E4-3CCD-4C95-B6FC-9085F8D1F533}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6193.52083333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
@@ -369,6 +446,7 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{1FF6A2B5-EE68-414E-B4A8-DE5D1B4FA46B}" ShortID="835279180">
 									<ChildrenList>
@@ -408,12 +486,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop3_retake" ID="{653FEA2D-C6E2-4A11-AD7C-2029BC305958}" ShortID="154940374">
+												<AudioFileSource Name="gdc-2020_loop3_retake" ID="{653FEA2D-C6E2-4A11-AD7C-2029BC305958}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop3_retake.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="454859133"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="454859133"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -424,90 +502,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{31F2A54A-496B-4024-B7D8-3FAC0C5BFC37}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop3_retake" ID="{303C6F1E-9694-4EAF-BB24-782BC7C83070}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop3_retake" ID="{653FEA2D-C6E2-4A11-AD7C-2029BC305958}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{011EF34B-1F8F-42E2-B188-A1A3ED1CC9D8}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{DD88DC64-4CCA-40E4-8338-DA03628C8C87}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{BD228DBC-57A2-4E06-B002-D399B0B82735}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{31F2A54A-496B-4024-B7D8-3FAC0C5BFC37}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop3_retake" ID="{303C6F1E-9694-4EAF-BB24-782BC7C83070}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop3_retake" ID="{653FEA2D-C6E2-4A11-AD7C-2029BC305958}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{011EF34B-1F8F-42E2-B188-A1A3ED1CC9D8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{DD88DC64-4CCA-40E4-8338-DA03628C8C87}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{BD228DBC-57A2-4E06-B002-D399B0B82735}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{BA4BCD76-781F-446D-8F13-E8BAA13AC4DF}"/>
-										<MusicCue Name="Exit Cue" ID="{80027E17-9263-46FF-B8D7-4AD681E25A52}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BA4BCD76-781F-446D-8F13-E8BAA13AC4DF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{80027E17-9263-46FF-B8D7-4AD681E25A52}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="gdc-2020_loop4" ID="{5738BBA0-6F7F-474A-85E8-83CE18381B2F}" ShortID="88693520">
 									<PropertyList>
@@ -529,9 +629,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop4" ID="{D3AEEA07-2B21-40CC-B8C1-39DE96717E91}" ShortID="379502522">
+												<AudioFileSource Name="gdc-2020_loop4" ID="{D3AEEA07-2B21-40CC-B8C1-39DE96717E91}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="379502522"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -542,90 +645,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{0DC53B57-4810-437B-B56B-73CD4B487BF6}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop4" ID="{779AB4A3-5F82-4ECF-B234-2F9DE8BD7DA7}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop4" ID="{D3AEEA07-2B21-40CC-B8C1-39DE96717E91}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{275F17DE-7498-4D84-BF63-C9312CCEBD9F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{2FADA96E-87B6-4C05-92CF-2B8FC457D7F1}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{85855842-B0DB-4049-9714-478C6EB0B317}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0DC53B57-4810-437B-B56B-73CD4B487BF6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop4" ID="{779AB4A3-5F82-4ECF-B234-2F9DE8BD7DA7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop4" ID="{D3AEEA07-2B21-40CC-B8C1-39DE96717E91}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{275F17DE-7498-4D84-BF63-C9312CCEBD9F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{2FADA96E-87B6-4C05-92CF-2B8FC457D7F1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{85855842-B0DB-4049-9714-478C6EB0B317}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{63F5D3D3-CBFC-4844-B945-70B66BE5936A}"/>
-										<MusicCue Name="Exit Cue" ID="{23D1D289-63FF-4F02-88A0-954BFD7004FF}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{63F5D3D3-CBFC-4844-B945-70B66BE5936A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{23D1D289-63FF-4F02-88A0-954BFD7004FF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="gdc-2020_loop12" ID="{5DF18CE5-A49C-4329-8243-319DEA663A23}" ShortID="846866514">
 									<PropertyList>
@@ -648,12 +773,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop12" ID="{E21A2E5B-B390-436B-9165-2C782A55E318}" ShortID="909392654">
+												<AudioFileSource Name="gdc-2020_loop12" ID="{E21A2E5B-B390-436B-9165-2C782A55E318}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop12.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="905065464"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="905065464"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -664,90 +789,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{B9CD3BDB-1D2E-425F-B83C-167ECB7B6088}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop12" ID="{62E0E28E-A393-4F86-B224-CB78ABCEAC8F}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="30967.741935484"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop12" ID="{E21A2E5B-B390-436B-9165-2C782A55E318}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{75685AF8-7349-4DA2-B5B0-66C6206C79BD}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{598F80E6-70BA-4C2C-899D-ACDC8C09F487}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{4012D30D-4B4B-45DF-A3FF-FC68FCD1008D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B9CD3BDB-1D2E-425F-B83C-167ECB7B6088}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop12" ID="{62E0E28E-A393-4F86-B224-CB78ABCEAC8F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="30967.741935484"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop12" ID="{E21A2E5B-B390-436B-9165-2C782A55E318}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{75685AF8-7349-4DA2-B5B0-66C6206C79BD}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{598F80E6-70BA-4C2C-899D-ACDC8C09F487}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{4012D30D-4B4B-45DF-A3FF-FC68FCD1008D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{DA5ED7B2-592D-4FA4-A425-3E68DB94C5A2}"/>
-										<MusicCue Name="Exit Cue" ID="{217B582C-F48B-40A0-B5B5-44145F9DFFC9}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="24774.1875"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DA5ED7B2-592D-4FA4-A425-3E68DB94C5A2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{217B582C-F48B-40A0-B5B5-44145F9DFFC9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24774.1875"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="gdc-2020_loop5" ID="{65C90591-1A22-45DA-AFD7-501823D4B15E}" ShortID="706436367">
 									<PropertyList>
@@ -769,9 +916,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop5" ID="{1DC1E437-5855-4CB2-9E58-70A8CFCF9D43}" ShortID="528097558">
+												<AudioFileSource Name="gdc-2020_loop5" ID="{1DC1E437-5855-4CB2-9E58-70A8CFCF9D43}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="528097558"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -782,31 +932,53 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{DB7D3960-F7D3-4D89-BF9D-EBACC3330645}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop5" ID="{0FF3D381-E14A-4F63-8448-FB8A9AA3200A}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="18580.7291666667"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop5" ID="{1DC1E437-5855-4CB2-9E58-70A8CFCF9D43}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DB7D3960-F7D3-4D89-BF9D-EBACC3330645}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop5" ID="{0FF3D381-E14A-4F63-8448-FB8A9AA3200A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="18580.7291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop5" ID="{1DC1E437-5855-4CB2-9E58-70A8CFCF9D43}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{838591AD-31D5-4BFA-849C-704034E9B9B9}"/>
-										<MusicCue Name="Exit Cue" ID="{F1C848C9-F674-4410-8A41-E96F86138543}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12387.0967741935"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{838591AD-31D5-4BFA-849C-704034E9B9B9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F1C848C9-F674-4410-8A41-E96F86138543}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12387.0967741935"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
@@ -822,6 +994,7 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{C10F91C1-5BF7-4BEA-8AD2-170013A8C3EC}" ShortID="937763116">
 									<PropertyList>
@@ -895,12 +1068,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop3_retake" ID="{CEF2397B-A9A9-44DE-BAEA-CA770EF02B00}" ShortID="796373359">
+												<AudioFileSource Name="gdc-2020_loop3_retake" ID="{CEF2397B-A9A9-44DE-BAEA-CA770EF02B00}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop3_retake.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="454859133"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="454859133"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -911,90 +1084,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{71EA5F8C-5444-40AC-8E80-27EE5AE128C3}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop3_retake" ID="{F6BB0D4E-890C-48E5-BFB7-18D03A03DA93}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop3_retake" ID="{CEF2397B-A9A9-44DE-BAEA-CA770EF02B00}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{63D9D48D-A8BE-4AA4-90F1-B1112B200A82}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{4663066B-B8A2-454C-8144-3F8C97C42BD3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{1CFC82D6-4640-4AA2-B84D-63300A41B7F6}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{71EA5F8C-5444-40AC-8E80-27EE5AE128C3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop3_retake" ID="{F6BB0D4E-890C-48E5-BFB7-18D03A03DA93}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop3_retake" ID="{CEF2397B-A9A9-44DE-BAEA-CA770EF02B00}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{63D9D48D-A8BE-4AA4-90F1-B1112B200A82}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{4663066B-B8A2-454C-8144-3F8C97C42BD3}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{1CFC82D6-4640-4AA2-B84D-63300A41B7F6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{78FD8171-A725-48DD-B320-4EF68BD8E182}"/>
-										<MusicCue Name="Exit Cue" ID="{7F64A0AA-4D14-4031-AFBA-F00C91855060}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{78FD8171-A725-48DD-B320-4EF68BD8E182}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{7F64A0AA-4D14-4031-AFBA-F00C91855060}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="gdc-2020_loop4" ID="{75911927-B192-4186-9AA0-93D0F4C38DA8}" ShortID="811189249">
 									<PropertyList>
@@ -1016,12 +1211,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop4" ID="{14CBB06C-BFF9-41DF-8FA2-B67D8173AD12}" ShortID="322627079">
+												<AudioFileSource Name="gdc-2020_loop4" ID="{14CBB06C-BFF9-41DF-8FA2-B67D8173AD12}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop4.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="379502522"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="379502522"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -1032,90 +1227,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{0AD00B6B-7AF3-44D5-934B-26E03038DA33}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop4" ID="{1B2D4077-800C-4CA2-B41B-28673EBF5F76}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop4" ID="{14CBB06C-BFF9-41DF-8FA2-B67D8173AD12}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{717F0DF2-4902-4A49-B094-473FF7DCA419}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{DF80C201-CF51-4746-A308-FECF66A89BCE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{D4FAD7BD-67D2-4186-A63A-5CAA07AAD8CD}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>18.58065</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0AD00B6B-7AF3-44D5-934B-26E03038DA33}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop4" ID="{1B2D4077-800C-4CA2-B41B-28673EBF5F76}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="18580.6451612903"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop4" ID="{14CBB06C-BFF9-41DF-8FA2-B67D8173AD12}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{717F0DF2-4902-4A49-B094-473FF7DCA419}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{DF80C201-CF51-4746-A308-FECF66A89BCE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{D4FAD7BD-67D2-4186-A63A-5CAA07AAD8CD}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>18.58065</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{20E61845-91DF-49C7-803B-9078D1CD76A8}"/>
-										<MusicCue Name="Exit Cue" ID="{2A177F79-BDB6-4130-B1D6-67C1C423055C}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{20E61845-91DF-49C7-803B-9078D1CD76A8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2A177F79-BDB6-4130-B1D6-67C1C423055C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12387.1041666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="gdc-2020_loop12" ID="{9D5967F2-651F-43C2-BD88-ADBAC3494CD4}" ShortID="876529620">
 									<PropertyList>
@@ -1138,12 +1355,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop12" ID="{F2C0DE32-0E62-4FA1-B49A-FACA9B8790EC}" ShortID="50055388">
+												<AudioFileSource Name="gdc-2020_loop12" ID="{F2C0DE32-0E62-4FA1-B49A-FACA9B8790EC}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop12.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="905065464"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="905065464"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -1154,90 +1371,112 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{7D904E39-FCBF-4052-A2E8-8B18C559C947}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop12" ID="{98FC1568-BB39-414A-89B3-9CB9ED238BB0}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="30967.741935484"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop12" ID="{F2C0DE32-0E62-4FA1-B49A-FACA9B8790EC}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{AA3F13BE-0994-420A-9413-E69B8A7C625B}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{4FDD4C1E-ED81-4C24-8EB3-8D7EF9F9D89B}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{EBFB19C5-F732-420C-A0E2-147BF5A1D942}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>30.96774</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7D904E39-FCBF-4052-A2E8-8B18C559C947}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop12" ID="{98FC1568-BB39-414A-89B3-9CB9ED238BB0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="30967.741935484"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop12" ID="{F2C0DE32-0E62-4FA1-B49A-FACA9B8790EC}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{AA3F13BE-0994-420A-9413-E69B8A7C625B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{4FDD4C1E-ED81-4C24-8EB3-8D7EF9F9D89B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{EBFB19C5-F732-420C-A0E2-147BF5A1D942}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>30.96774</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{6C6970A0-5D11-4B88-AB1F-993A75E532AC}"/>
-										<MusicCue Name="Exit Cue" ID="{0DA9D85C-07AB-470E-8C6C-9ADFC38AE236}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="24774.1875"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6C6970A0-5D11-4B88-AB1F-993A75E532AC}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0DA9D85C-07AB-470E-8C6C-9ADFC38AE236}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24774.1875"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 								<MusicSegment Name="gdc-2020_loop5" ID="{203ACAC3-F840-48C9-858B-4052AA563736}" ShortID="809080200">
 									<PropertyList>
@@ -1263,12 +1502,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gdc-2020_loop5" ID="{ADC3C543-C451-4484-B3F8-739F78DF6300}" ShortID="241868178">
+												<AudioFileSource Name="gdc-2020_loop5" ID="{ADC3C543-C451-4484-B3F8-739F78DF6300}">
 													<Language>SFX</Language>
 													<AudioFile>gdc-2020_loop5.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="528097558"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="528097558"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -1279,31 +1518,53 @@
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{35F95D26-6A4F-4220-887F-D2CEB6F1E7C8}">
-													<ClipList>
-														<MusicClip Name="gdc-2020_loop5" ID="{F6446782-0FF9-442F-900D-8EC5EB70648E}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="18580.7291666667"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="gdc-2020_loop5" ID="{ADC3C543-C451-4484-B3F8-739F78DF6300}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{35F95D26-6A4F-4220-887F-D2CEB6F1E7C8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="gdc-2020_loop5" ID="{F6446782-0FF9-442F-900D-8EC5EB70648E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="18580.7291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="gdc-2020_loop5" ID="{ADC3C543-C451-4484-B3F8-739F78DF6300}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{62A3CFB7-7D21-4B69-876D-79713433FE72}"/>
-										<MusicCue Name="Exit Cue" ID="{883E0E67-109E-4973-89D9-49D82EE151EA}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="12387.0967741935"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{62A3CFB7-7D21-4B69-876D-79713433FE72}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{883E0E67-109E-4973-89D9-49D82EE151EA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12387.0967741935"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
@@ -1319,6 +1580,7 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
+							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{83BE499C-E48F-40CF-8614-DC76E20265E6}" ShortID="1041027704">
 									<PropertyList>
@@ -1550,6 +1812,7 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ObjectLists/>
 					<ArgumentList>
 						<ArgumentRef Name="game_state" ID="{259BE915-380B-486B-8DA1-1E2D62C9B9C8}"/>
 					</ArgumentList>
@@ -1612,9 +1875,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gdc-2020_crash" ID="{F518722B-7168-48A5-B18A-35DE86062E3D}" ShortID="71895116">
+								<AudioFileSource Name="gdc-2020_crash" ID="{F518722B-7168-48A5-B18A-35DE86062E3D}">
 									<Language>SFX</Language>
 									<AudioFile>gdc-2020_crash.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="71895116"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<TransitionList>
@@ -1625,30 +1891,52 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<SequenceList>
-								<MusicTrackSequence Name="" ID="{37E8C549-840E-483D-944E-74DD9E48ACE2}">
-									<ClipList>
-										<MusicClip Name="gdc-2020_crash" ID="{8CE1A68D-4A43-4B10-BC47-5F64AE0B5A9C}">
-											<PropertyList>
-												<Property Name="EndTrimOffset" Type="Real64" Value="1387.10416666667"/>
-												<Property Name="FadeInMode" Type="int16" Value="0"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="621.444201312911"/>
-											</PropertyList>
-											<AudioSourceRef Name="gdc-2020_crash" ID="{F518722B-7168-48A5-B18A-35DE86062E3D}"/>
-										</MusicClip>
-									</ClipList>
-								</MusicTrackSequence>
-							</SequenceList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{37E8C549-840E-483D-944E-74DD9E48ACE2}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="gdc-2020_crash" ID="{8CE1A68D-4A43-4B10-BC47-5F64AE0B5A9C}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="1387.10416666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="621.444201312911"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="gdc-2020_crash" ID="{F518722B-7168-48A5-B18A-35DE86062E3D}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</MusicTrack>
 					</ChildrenList>
-					<CueList>
-						<MusicCue Name="Entry Cue" ID="{A21FC539-AF73-4250-AC81-C3ABD8DB9D19}"/>
-						<MusicCue Name="Exit Cue" ID="{963B3909-725F-4B9B-B0D2-F8477BDD0FB8}">
-							<PropertyList>
-								<Property Name="CueType" Type="int16" Value="1"/>
-							</PropertyList>
-						</MusicCue>
-					</CueList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{A21FC539-AF73-4250-AC81-C3ABD8DB9D19}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{963B3909-725F-4B9B-B0D2-F8477BDD0FB8}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>

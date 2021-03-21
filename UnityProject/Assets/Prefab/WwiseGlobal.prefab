@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996578068555936056}
-  - component: {fileID: 304073904137055078}
+  - component: {fileID: 6410515179857062577}
+  - component: {fileID: 2900978973054218280}
   - component: {fileID: -2960950437578610674}
   - component: {fileID: 5191132614626719623}
   m_Layer: 0
@@ -33,7 +34,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &304073904137055078
+--- !u!114 &6410515179857062577
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,10 +43,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7284008889843761642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edd5ad703dd881441b40110a5a97dd10, type: 3}
+  m_Script: {fileID: 11500000, guid: af4f956f748ef62428f065998f5346b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 2d60bfcafdad90149bf108d9a5d4f7b0,
+  InitializationSettings: {fileID: 11400000, guid: 2305ceb493f898c4886a1a7f98795b29,
     type: 2}
   basePath: 
   language: 
@@ -58,8 +59,32 @@ MonoBehaviour:
   callbackManagerBufferSize: 0
   spatialAudioPoolSize: 0
   maxSoundPropagationDepth: 0
-  diffractionFlags: 11
   engineLogging: 0
+--- !u!114 &2900978973054218280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7284008889843761642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e984d8df18beffe4994f77815ae8088f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 660d6e685d4a74b499c315cfaa833af7,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!114 &-2960950437578610674
 MonoBehaviour:
   m_ObjectHideFlags: 0

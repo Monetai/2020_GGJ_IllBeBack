@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Sacha" ID="{0C6E33AA-1CA9-4BD4-A776-C49CB8948170}" PersistMode="Standalone">
 			<ChildrenList>
@@ -38,11 +38,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_wood_02" ID="{E24F0B02-87AE-4268-BAAA-EB80E9D33132}" ShortID="935992558">
+								<AudioFileSource Name="punch_wood_02" ID="{E24F0B02-87AE-4268-BAAA-EB80E9D33132}">
 									<Language>SFX</Language>
 									<AudioFile>punch_wood_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="935992558"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_wood_02" ID="{E24F0B02-87AE-4268-BAAA-EB80E9D33132}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -64,16 +68,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_wood_04" ID="{5E275BDE-DC0C-46B8-B65D-09FABF76FBCF}" ShortID="145378561">
+								<AudioFileSource Name="punch_wood_04" ID="{5E275BDE-DC0C-46B8-B65D-09FABF76FBCF}">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="4.00247688243064E-02"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0400247688243064"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.202792162043153"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>punch_wood_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145378561"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_wood_04" ID="{5E275BDE-DC0C-46B8-B65D-09FABF76FBCF}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -88,16 +96,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_wood_03" ID="{2234DA2D-803A-405C-A183-2E02E3A6ED09}" ShortID="861782993">
+								<AudioFileSource Name="punch_wood_03" ID="{2234DA2D-803A-405C-A183-2E02E3A6ED09}">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="7.53228203434611E-02"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0753228203434611"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="7.53228203434611E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0753228203434611"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>punch_wood_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="861782993"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_wood_03" ID="{2234DA2D-803A-405C-A183-2E02E3A6ED09}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -112,16 +124,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_wood_01" ID="{CFDD5EB4-00F5-4967-AF6B-D04DA6F3EB3C}" ShortID="374064218">
+								<AudioFileSource Name="punch_wood_01" ID="{CFDD5EB4-00F5-4967-AF6B-D04DA6F3EB3C}">
 									<Language>SFX</Language>
 									<AudioFile>punch_wood_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="374064218"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_wood_01" ID="{CFDD5EB4-00F5-4967-AF6B-D04DA6F3EB3C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="punch_jar" ID="{90133FA9-B570-463F-A620-CD63719D763A}" ShortID="114536936">
 					<PropertyList>
@@ -156,14 +173,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_04" ID="{01497AF0-195E-476D-B3E5-65E40D039114}" ShortID="97618016">
+								<AudioFileSource Name="punch_statue_04" ID="{01497AF0-195E-476D-B3E5-65E40D039114}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_04.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="525186951"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="525186951"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_04" ID="{01497AF0-195E-476D-B3E5-65E40D039114}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -181,14 +199,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_02" ID="{DB2207C4-D221-4FC9-AB02-CFAF7904ABB8}" ShortID="861993571">
+								<AudioFileSource Name="punch_statue_02" ID="{DB2207C4-D221-4FC9-AB02-CFAF7904ABB8}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_02.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="784277066"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="784277066"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_02" ID="{DB2207C4-D221-4FC9-AB02-CFAF7904ABB8}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -206,14 +225,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_03" ID="{05B450B2-5DC6-429E-B0C8-072B55BB49CE}" ShortID="102619811">
+								<AudioFileSource Name="punch_statue_03" ID="{05B450B2-5DC6-429E-B0C8-072B55BB49CE}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_03.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="1028015162"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="1028015162"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_03" ID="{05B450B2-5DC6-429E-B0C8-072B55BB49CE}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -231,19 +251,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_01" ID="{410EDBD6-2404-4876-864C-51015270A2C1}" ShortID="37231766">
+								<AudioFileSource Name="punch_statue_01" ID="{410EDBD6-2404-4876-864C-51015270A2C1}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_01.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="849424525"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="849424525"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_01" ID="{410EDBD6-2404-4876-864C-51015270A2C1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="punch_statue" ID="{D84401FE-194D-4BF4-8B05-28CAAAF68AB9}" ShortID="163379405">
 					<PropertyList>
@@ -280,11 +302,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_01" ID="{8211D652-D04A-432E-BE77-665F226BB8D9}" ShortID="849424525">
+								<AudioFileSource Name="punch_statue_01" ID="{8211D652-D04A-432E-BE77-665F226BB8D9}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849424525"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_01" ID="{8211D652-D04A-432E-BE77-665F226BB8D9}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -299,11 +325,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_02" ID="{76213A12-23C6-47D1-9C48-785C43CF0062}" ShortID="784277066">
+								<AudioFileSource Name="punch_statue_02" ID="{76213A12-23C6-47D1-9C48-785C43CF0062}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="784277066"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_02" ID="{76213A12-23C6-47D1-9C48-785C43CF0062}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -318,11 +348,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_04" ID="{346F64C7-6BCB-42D6-982A-B182103FD155}" ShortID="525186951">
+								<AudioFileSource Name="punch_statue_04" ID="{346F64C7-6BCB-42D6-982A-B182103FD155}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="525186951"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_04" ID="{346F64C7-6BCB-42D6-982A-B182103FD155}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -337,16 +371,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="punch_statue_03" ID="{96C5B89F-8D2F-4686-996B-9BDA0782EB2C}" ShortID="1028015162">
+								<AudioFileSource Name="punch_statue_03" ID="{96C5B89F-8D2F-4686-996B-9BDA0782EB2C}">
 									<Language>SFX</Language>
 									<AudioFile>punch_statue_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1028015162"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="punch_statue_03" ID="{96C5B89F-8D2F-4686-996B-9BDA0782EB2C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</RandomSequenceContainer>
 				<BlendContainer Name="cine_intro_wind" ID="{ACA37212-8AB0-41D7-B62D-B9357898F43D}" ShortID="865536445">
 					<PropertyList>
@@ -380,7 +419,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="cine_intro_wind" ID="{FFAFB9A0-72A1-4EF2-958A-6EF12F3227AB}" ShortID="156370118">
+								<AudioFileSource Name="cine_intro_wind" ID="{FFAFB9A0-72A1-4EF2-958A-6EF12F3227AB}">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="1.80234802950242"/>
 										<Property Name="FadeInShape" Type="int16" Value="6"/>
@@ -391,8 +430,12 @@
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>cine_intro_wind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="156370118"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="cine_intro_wind" ID="{FFAFB9A0-72A1-4EF2-958A-6EF12F3227AB}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -414,7 +457,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="cine_intro_wind_debris" ID="{6778DD3B-A90F-4922-A698-6A3EC276057E}" ShortID="394316909">
+								<AudioFileSource Name="cine_intro_wind_debris" ID="{6778DD3B-A90F-4922-A698-6A3EC276057E}">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="2.77994782034346"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="17.1073712021136"/>
@@ -424,13 +467,18 @@
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>cine_intro_wind_debris.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="394316909"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="cine_intro_wind_debris" ID="{6778DD3B-A90F-4922-A698-6A3EC276057E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</BlendContainer>
 				<Sound Name="cine_intro_begin_fragments" ID="{6A27E903-9CC7-46F5-87E1-C5601FD47FC6}" ShortID="101728199">
 					<PropertyList>
@@ -452,15 +500,19 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="cine_intro_begin_fragments" ID="{EB222B05-F78F-4E7A-9888-AE9247B67074}" ShortID="973182502">
+						<AudioFileSource Name="cine_intro_begin_fragments" ID="{EB222B05-F78F-4E7A-9888-AE9247B67074}">
 							<PropertyList>
 								<Property Name="FadeInDuration" Type="Real64" Value="0.592938252990552"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>cine_intro_begin_fragments.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="973182502"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="cine_intro_begin_fragments" ID="{EB222B05-F78F-4E7A-9888-AE9247B67074}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -485,11 +537,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_angry_01" ID="{5311ADC6-34A9-4619-9F4E-48152856E972}" ShortID="1008034763">
+								<AudioFileSource Name="VO_ghost_angry_01" ID="{5311ADC6-34A9-4619-9F4E-48152856E972}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_angry_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1008034763"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_angry_01" ID="{5311ADC6-34A9-4619-9F4E-48152856E972}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -504,11 +560,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_angry_02" ID="{5B4CEF0E-BD1A-41AC-BE3E-2BE633C6A5C4}" ShortID="666302873">
+								<AudioFileSource Name="VO_ghost_angry_02" ID="{5B4CEF0E-BD1A-41AC-BE3E-2BE633C6A5C4}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_angry_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="666302873"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_angry_02" ID="{5B4CEF0E-BD1A-41AC-BE3E-2BE633C6A5C4}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -523,11 +583,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_angry_03" ID="{3196F00E-FCF4-4D0C-BAEA-DB8FBC593B7D}" ShortID="1027452071">
+								<AudioFileSource Name="VO_ghost_angry_03" ID="{3196F00E-FCF4-4D0C-BAEA-DB8FBC593B7D}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_angry_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027452071"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_angry_03" ID="{3196F00E-FCF4-4D0C-BAEA-DB8FBC593B7D}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -542,16 +606,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_angry_04" ID="{6B80C602-64E6-48C9-817D-25EBD8A5D6A1}" ShortID="121130935">
+								<AudioFileSource Name="VO_ghost_angry_04" ID="{6B80C602-64E6-48C9-817D-25EBD8A5D6A1}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_angry_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="121130935"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_angry_04" ID="{6B80C602-64E6-48C9-817D-25EBD8A5D6A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="VO_ghost_arrival" ID="{08B7C442-7590-42D6-9110-5C1C0BA0D41E}" ShortID="690006225">
 					<ReferenceList>
@@ -573,11 +642,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_arrival_01" ID="{EE466C4E-A357-4D5C-AF6A-672459FA6D00}" ShortID="362489380">
+								<AudioFileSource Name="VO_ghost_arrival_01" ID="{EE466C4E-A357-4D5C-AF6A-672459FA6D00}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_arrival_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="362489380"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_arrival_01" ID="{EE466C4E-A357-4D5C-AF6A-672459FA6D00}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -592,11 +665,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_arrival_02" ID="{CD236AC3-96F7-465A-8653-99E5C10C2978}" ShortID="603103066">
+								<AudioFileSource Name="VO_ghost_arrival_02" ID="{CD236AC3-96F7-465A-8653-99E5C10C2978}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_arrival_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603103066"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_arrival_02" ID="{CD236AC3-96F7-465A-8653-99E5C10C2978}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -611,11 +688,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_arrival_03" ID="{C5034CF5-7B14-48C8-B5AE-FF598B671862}" ShortID="193012352">
+								<AudioFileSource Name="VO_ghost_arrival_03" ID="{C5034CF5-7B14-48C8-B5AE-FF598B671862}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_arrival_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="193012352"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_arrival_03" ID="{C5034CF5-7B14-48C8-B5AE-FF598B671862}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -630,11 +711,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_arrival_04" ID="{F5A9823C-EA0A-437D-A534-689697D4497B}" ShortID="844198610">
+								<AudioFileSource Name="VO_ghost_arrival_04" ID="{F5A9823C-EA0A-437D-A534-689697D4497B}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_arrival_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="844198610"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_arrival_04" ID="{F5A9823C-EA0A-437D-A534-689697D4497B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -649,11 +734,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_arrival_05" ID="{1D9788DA-1C24-443E-AF6A-5D6AD17A6269}" ShortID="157279875">
+								<AudioFileSource Name="VO_ghost_arrival_05" ID="{1D9788DA-1C24-443E-AF6A-5D6AD17A6269}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_arrival_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="157279875"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_arrival_05" ID="{1D9788DA-1C24-443E-AF6A-5D6AD17A6269}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -668,16 +757,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_arrival_06" ID="{CAE137E9-1437-4581-B4A5-A97BEEE9373E}" ShortID="679051405">
+								<AudioFileSource Name="VO_ghost_arrival_06" ID="{CAE137E9-1437-4581-B4A5-A97BEEE9373E}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_arrival_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679051405"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_arrival_06" ID="{CAE137E9-1437-4581-B4A5-A97BEEE9373E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="VO_ghost_laugh_caugh" ID="{F53376A2-AA01-4A1E-9A0C-15C3BE5294A2}" ShortID="337126468">
 					<ReferenceList>
@@ -699,11 +793,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_caugh_01" ID="{099C6608-0F3A-4FF4-95F4-9D0DCD1ADECF}" ShortID="1071094723">
+								<AudioFileSource Name="VO_ghost_laugh_caugh_01" ID="{099C6608-0F3A-4FF4-95F4-9D0DCD1ADECF}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_caugh_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1071094723"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_caugh_01" ID="{099C6608-0F3A-4FF4-95F4-9D0DCD1ADECF}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -718,11 +816,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_caugh_02" ID="{C29E40FD-A7E9-4C22-9F38-6006C10CE36B}" ShortID="1004047905">
+								<AudioFileSource Name="VO_ghost_laugh_caugh_02" ID="{C29E40FD-A7E9-4C22-9F38-6006C10CE36B}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_caugh_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1004047905"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_caugh_02" ID="{C29E40FD-A7E9-4C22-9F38-6006C10CE36B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -737,16 +839,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_caugh_03" ID="{D48BBB90-D114-449E-95EE-BAE36D90454C}" ShortID="443107859">
+								<AudioFileSource Name="VO_ghost_laugh_caugh_03" ID="{D48BBB90-D114-449E-95EE-BAE36D90454C}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_caugh_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="443107859"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_caugh_03" ID="{D48BBB90-D114-449E-95EE-BAE36D90454C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="VO_ghost_laugh_evil" ID="{AEF95252-4F91-4ADF-BA1D-64863C596A66}" ShortID="650783202">
 					<ReferenceList>
@@ -768,11 +875,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_evil_01" ID="{F584C934-A270-490B-8DE9-BA65D225103C}" ShortID="221698922">
+								<AudioFileSource Name="VO_ghost_laugh_evil_01" ID="{F584C934-A270-490B-8DE9-BA65D225103C}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_evil_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="221698922"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_evil_01" ID="{F584C934-A270-490B-8DE9-BA65D225103C}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -787,11 +898,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_evil_02" ID="{B62F7FA7-8294-4809-A2B0-8FA300A41DD7}" ShortID="477787185">
+								<AudioFileSource Name="VO_ghost_laugh_evil_02" ID="{B62F7FA7-8294-4809-A2B0-8FA300A41DD7}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_evil_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477787185"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_evil_02" ID="{B62F7FA7-8294-4809-A2B0-8FA300A41DD7}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -806,16 +921,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_evil_03" ID="{C0796938-7EAD-472A-A1D2-14429783CF8D}" ShortID="307394539">
+								<AudioFileSource Name="VO_ghost_laugh_evil_03" ID="{C0796938-7EAD-472A-A1D2-14429783CF8D}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_evil_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="307394539"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_evil_03" ID="{C0796938-7EAD-472A-A1D2-14429783CF8D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="VO_ghost_laugh_short" ID="{C00A46B7-079F-4EC2-9548-1067750215CD}" ShortID="164535375">
 					<ReferenceList>
@@ -837,11 +957,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_01" ID="{8F0CD409-9343-4546-9993-4069A112976F}" ShortID="87672424">
+								<AudioFileSource Name="VO_ghost_laugh_short_01" ID="{8F0CD409-9343-4546-9993-4069A112976F}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87672424"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_01" ID="{8F0CD409-9343-4546-9993-4069A112976F}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -856,11 +980,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_02" ID="{40ABDB7F-208C-4DD8-83C9-DEE783C1B576}" ShortID="46632162">
+								<AudioFileSource Name="VO_ghost_laugh_short_02" ID="{40ABDB7F-208C-4DD8-83C9-DEE783C1B576}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="46632162"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_02" ID="{40ABDB7F-208C-4DD8-83C9-DEE783C1B576}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -875,11 +1003,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_03" ID="{FBBB5DEE-D013-4A37-9535-CD73591E4E8C}" ShortID="122663433">
+								<AudioFileSource Name="VO_ghost_laugh_short_03" ID="{FBBB5DEE-D013-4A37-9535-CD73591E4E8C}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="122663433"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_03" ID="{FBBB5DEE-D013-4A37-9535-CD73591E4E8C}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -894,11 +1026,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_04" ID="{D2BA7557-22DF-4901-A422-AE372AECD78B}" ShortID="956816972">
+								<AudioFileSource Name="VO_ghost_laugh_short_04" ID="{D2BA7557-22DF-4901-A422-AE372AECD78B}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="956816972"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_04" ID="{D2BA7557-22DF-4901-A422-AE372AECD78B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -913,11 +1049,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_05" ID="{048AF679-1327-49AD-BFB4-BEE6F681CD50}" ShortID="175835812">
+								<AudioFileSource Name="VO_ghost_laugh_short_05" ID="{048AF679-1327-49AD-BFB4-BEE6F681CD50}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="175835812"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_05" ID="{048AF679-1327-49AD-BFB4-BEE6F681CD50}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -932,11 +1072,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_06" ID="{ECB61C3D-CA93-4A42-A30F-8477D9768410}" ShortID="11284483">
+								<AudioFileSource Name="VO_ghost_laugh_short_06" ID="{ECB61C3D-CA93-4A42-A30F-8477D9768410}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="11284483"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_06" ID="{ECB61C3D-CA93-4A42-A30F-8477D9768410}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -951,16 +1095,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_07" ID="{D9FB3DB9-393B-4965-8A19-7E4D98FF6ECB}" ShortID="191156688">
+								<AudioFileSource Name="VO_ghost_laugh_short_07" ID="{D9FB3DB9-393B-4965-8A19-7E4D98FF6ECB}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191156688"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_07" ID="{D9FB3DB9-393B-4965-8A19-7E4D98FF6ECB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="VO_ghost_leave" ID="{C7DBBD20-2E20-436C-BFB7-815560962830}" ShortID="629368029">
 					<ReferenceList>
@@ -982,11 +1131,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_01" ID="{01235EC6-81C1-471E-9B44-D5729918BB7D}" ShortID="1065052453">
+								<AudioFileSource Name="VO_ghost_leave_01" ID="{01235EC6-81C1-471E-9B44-D5729918BB7D}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1065052453"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_01" ID="{01235EC6-81C1-471E-9B44-D5729918BB7D}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1001,11 +1154,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_02" ID="{53DA444B-6B28-4FF7-8ADA-24E837E01B5D}" ShortID="708797496">
+								<AudioFileSource Name="VO_ghost_leave_02" ID="{53DA444B-6B28-4FF7-8ADA-24E837E01B5D}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="708797496"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_02" ID="{53DA444B-6B28-4FF7-8ADA-24E837E01B5D}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1020,16 +1177,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_03" ID="{DB5F493E-DC33-4653-AAA3-72F35BDABD97}" ShortID="504405829">
+								<AudioFileSource Name="VO_ghost_leave_03" ID="{DB5F493E-DC33-4653-AAA3-72F35BDABD97}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="504405829"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_03" ID="{DB5F493E-DC33-4653-AAA3-72F35BDABD97}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="VO_ghost_leave_cry" ID="{4FE35E4B-B795-44B8-8D0B-2BBB03EDF500}" ShortID="43939065">
 					<ReferenceList>
@@ -1051,11 +1213,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_cry_01" ID="{B0CE8E07-D1F2-4409-8DE7-0512D69317E8}" ShortID="997990689">
+								<AudioFileSource Name="VO_ghost_leave_cry_01" ID="{B0CE8E07-D1F2-4409-8DE7-0512D69317E8}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_cry_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="997990689"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_cry_01" ID="{B0CE8E07-D1F2-4409-8DE7-0512D69317E8}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1070,11 +1236,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_cry_02" ID="{07B80E00-941B-49F5-B8D5-F3BB3C1D1F3A}" ShortID="147674679">
+								<AudioFileSource Name="VO_ghost_leave_cry_02" ID="{07B80E00-941B-49F5-B8D5-F3BB3C1D1F3A}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_cry_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="147674679"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_cry_02" ID="{07B80E00-941B-49F5-B8D5-F3BB3C1D1F3A}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1089,11 +1259,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_cry_03" ID="{3871899F-9B85-4980-AA03-3F653C7514FF}" ShortID="961185064">
+								<AudioFileSource Name="VO_ghost_leave_cry_03" ID="{3871899F-9B85-4980-AA03-3F653C7514FF}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_cry_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="961185064"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_cry_03" ID="{3871899F-9B85-4980-AA03-3F653C7514FF}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1108,16 +1282,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_leave_cry_04" ID="{51106E17-6ED5-4BB7-932E-9197503888FB}" ShortID="786288332">
+								<AudioFileSource Name="VO_ghost_leave_cry_04" ID="{51106E17-6ED5-4BB7-932E-9197503888FB}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_leave_cry_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="786288332"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_leave_cry_04" ID="{51106E17-6ED5-4BB7-932E-9197503888FB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<Sound Name="ggj2020_blob_fantome" ID="{A0017A2F-DE7F-4E22-8CD8-ABF4B1BAD42C}" ShortID="820332226">
 					<PropertyList>
@@ -1136,11 +1315,15 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ggj2020_blob_fantome" ID="{48AC640D-1282-4E20-B411-0D0F9C7DE022}" ShortID="174016134">
+						<AudioFileSource Name="ggj2020_blob_fantome" ID="{48AC640D-1282-4E20-B411-0D0F9C7DE022}">
 							<Language>SFX</Language>
 							<AudioFile>ggj2020_blob_fantome.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="174016134"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="ggj2020_blob_fantome" ID="{48AC640D-1282-4E20-B411-0D0F9C7DE022}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -1188,14 +1371,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_caugh_01" ID="{5AF3C9CA-A9F8-4F4F-82CA-2C8C2A7ADA6B}" ShortID="165285839">
+								<AudioFileSource Name="VO_ghost_laugh_caugh_01" ID="{5AF3C9CA-A9F8-4F4F-82CA-2C8C2A7ADA6B}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_caugh_01.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="1071094723"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="1071094723"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_caugh_01" ID="{5AF3C9CA-A9F8-4F4F-82CA-2C8C2A7ADA6B}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1210,14 +1394,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_caugh_02" ID="{1F0F6D82-EB6D-438C-B3F3-BA0597EDBCD5}" ShortID="163626674">
+								<AudioFileSource Name="VO_ghost_laugh_caugh_02" ID="{1F0F6D82-EB6D-438C-B3F3-BA0597EDBCD5}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_caugh_02.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="1004047905"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="1004047905"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_caugh_02" ID="{1F0F6D82-EB6D-438C-B3F3-BA0597EDBCD5}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1232,14 +1417,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_caugh_03" ID="{F05621B6-8946-4FC6-8B79-743C5E4FFA3A}" ShortID="558140728">
+								<AudioFileSource Name="VO_ghost_laugh_caugh_03" ID="{F05621B6-8946-4FC6-8B79-743C5E4FFA3A}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_caugh_03.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="443107859"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="443107859"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_caugh_03" ID="{F05621B6-8946-4FC6-8B79-743C5E4FFA3A}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1254,14 +1440,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_evil_01" ID="{D98F3B2D-FCE1-4B2C-A7BF-0F35A35AF905}" ShortID="601628858">
+								<AudioFileSource Name="VO_ghost_laugh_evil_01" ID="{D98F3B2D-FCE1-4B2C-A7BF-0F35A35AF905}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_evil_01.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="221698922"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="221698922"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_evil_01" ID="{D98F3B2D-FCE1-4B2C-A7BF-0F35A35AF905}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1276,14 +1463,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_evil_02" ID="{FBE1B2F4-934F-47F2-A3D1-55AD0750D6B7}" ShortID="535628172">
+								<AudioFileSource Name="VO_ghost_laugh_evil_02" ID="{FBE1B2F4-934F-47F2-A3D1-55AD0750D6B7}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_evil_02.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="477787185"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="477787185"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_evil_02" ID="{FBE1B2F4-934F-47F2-A3D1-55AD0750D6B7}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1298,14 +1486,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_evil_03" ID="{2A0F8FC1-E76A-42C3-A729-4DF0C698384F}" ShortID="725891989">
+								<AudioFileSource Name="VO_ghost_laugh_evil_03" ID="{2A0F8FC1-E76A-42C3-A729-4DF0C698384F}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_evil_03.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="307394539"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="307394539"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_evil_03" ID="{2A0F8FC1-E76A-42C3-A729-4DF0C698384F}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1320,14 +1509,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_01" ID="{520E72F0-96B0-4969-A747-ADC9CF1F36B2}" ShortID="635748694">
+								<AudioFileSource Name="VO_ghost_laugh_short_01" ID="{520E72F0-96B0-4969-A747-ADC9CF1F36B2}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_01.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="87672424"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="87672424"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_01" ID="{520E72F0-96B0-4969-A747-ADC9CF1F36B2}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1342,14 +1532,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_02" ID="{37AF1D79-EB10-4640-B588-7DB3AFB355B3}" ShortID="519545742">
+								<AudioFileSource Name="VO_ghost_laugh_short_02" ID="{37AF1D79-EB10-4640-B588-7DB3AFB355B3}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_02.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="46632162"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="46632162"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_02" ID="{37AF1D79-EB10-4640-B588-7DB3AFB355B3}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1364,14 +1555,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_03" ID="{96314203-F00A-494B-938B-D01E5CAC1C01}" ShortID="783295140">
+								<AudioFileSource Name="VO_ghost_laugh_short_03" ID="{96314203-F00A-494B-938B-D01E5CAC1C01}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_03.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="122663433"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="122663433"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_03" ID="{96314203-F00A-494B-938B-D01E5CAC1C01}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1386,14 +1578,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_04" ID="{09569AB9-51A5-47E8-8165-6FF398E15B04}" ShortID="99447551">
+								<AudioFileSource Name="VO_ghost_laugh_short_04" ID="{09569AB9-51A5-47E8-8165-6FF398E15B04}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_04.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="956816972"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="956816972"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_04" ID="{09569AB9-51A5-47E8-8165-6FF398E15B04}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1408,14 +1601,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_05" ID="{F83233AC-E413-47E0-B8B3-9DFBEF9C3203}" ShortID="390797835">
+								<AudioFileSource Name="VO_ghost_laugh_short_05" ID="{F83233AC-E413-47E0-B8B3-9DFBEF9C3203}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_05.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="175835812"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="175835812"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_05" ID="{F83233AC-E413-47E0-B8B3-9DFBEF9C3203}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1430,14 +1624,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_06" ID="{D68A0807-23BB-4630-A909-DBD980B6D494}" ShortID="14739189">
+								<AudioFileSource Name="VO_ghost_laugh_short_06" ID="{D68A0807-23BB-4630-A909-DBD980B6D494}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_06.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="11284483"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="11284483"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_06" ID="{D68A0807-23BB-4630-A909-DBD980B6D494}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1452,19 +1647,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="VO_ghost_laugh_short_07" ID="{DBC9B34F-AC4D-46E4-A608-2F9C519995D4}" ShortID="1021741142">
+								<AudioFileSource Name="VO_ghost_laugh_short_07" ID="{DBC9B34F-AC4D-46E4-A608-2F9C519995D4}">
 									<Language>SFX</Language>
 									<AudioFile>VO_ghost_laugh_short_07.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="191156688"/>
-									</ConvertedFileIDList>
+									<MediaIDList>
+										<MediaID ID="191156688"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="VO_ghost_laugh_short_07" ID="{DBC9B34F-AC4D-46E4-A608-2F9C519995D4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</RandomSequenceContainer>
 				<Sound Name="ui" ID="{A3151A16-BD95-4331-99DA-EF9B1A705263}" ShortID="1026363631">
 					<PropertyList>
@@ -1496,17 +1693,21 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="cine_intro_begin_fragments" ID="{3632FC98-F07E-477F-BF33-894413983E81}" ShortID="640410890">
+						<AudioFileSource Name="cine_intro_begin_fragments" ID="{3632FC98-F07E-477F-BF33-894413983E81}">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.09400066793697E-02"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0109400066793697"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="3.13136313424063"/>
 								<Property Name="TrimEnd" Type="Real64" Value="3.14999538614897"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>cine_intro_begin_fragments.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="640410890"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="cine_intro_begin_fragments" ID="{3632FC98-F07E-477F-BF33-894413983E81}" Platform="Linked"/>
 					</ActiveSourceList>
